@@ -12,3 +12,4 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session2/obj/Debug/net8.0/session2.pdb
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session2/obj/Debug/net8.0/session2.genruntimeconfig.cache
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session2/obj/Debug/net8.0/ref/session2.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session2/obj/Debug/net8.0/session2.sourcelink.json
