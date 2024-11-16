@@ -52,7 +52,11 @@
             Console.WriteLine($"Nhập phần tử thứ {i+1}");
             string? item = Console.ReadLine();
             int formatItem = Convert.ToInt32(item);
-            listNumbers.Insert(i, formatItem);
+            // listNumbers.Insert(i, formatItem);
+
+            // C2: dùng Add
+            // Add: thêm phần tử vào cuối danh sách
+            listNumbers.Add(formatItem);
         }
         // in list phần tử ra ngoài màn hình
         // sẽ có 2 cách duyệt phần tử: for hoặc foreach
