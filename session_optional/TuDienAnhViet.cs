@@ -58,7 +58,11 @@ class TuDienAnhViet {
                 string vietnamese = Console.ReadLine();
                 // duyệt từng key-value trong dictionary và so sánh với value nhập từ bàn phím
                 string englishOutput = null; // biến flag để đánh dấu. Nếu không tìm thấy từ tiếng Anh => ko tìm thấy
-                foreach(KeyValuePair<string, string> pointer in dictionary) {
+                
+                // var: kiểu dữ liệu suy diễn
+                // var thường dùng trong vòng lặp
+                // C2: foreach(KeyPairValue<string, string> poiter indictionary)
+                foreach(var pointer in dictionary) {
                     // C1
                     if(pointer.Value == vietnamese) {
                         englishOutput = pointer.Key;

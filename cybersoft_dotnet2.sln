@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session8", "session8\sessio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session_optional", "session_optional\session_optional.csproj", "{1E9819A7-6C65-41E7-AF95-A9E09E80FD9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session9", "session9\session9.csproj", "{D020CA21-856C-4454-BB8A-7778B0DB457E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kethua_test", "kethua_test\kethua_test.csproj", "{7C837BA4-DF44-4B4D-A69B-E2BDE246991A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{1E9819A7-6C65-41E7-AF95-A9E09E80FD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E9819A7-6C65-41E7-AF95-A9E09E80FD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E9819A7-6C65-41E7-AF95-A9E09E80FD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D020CA21-856C-4454-BB8A-7778B0DB457E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D020CA21-856C-4454-BB8A-7778B0DB457E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D020CA21-856C-4454-BB8A-7778B0DB457E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D020CA21-856C-4454-BB8A-7778B0DB457E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C837BA4-DF44-4B4D-A69B-E2BDE246991A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C837BA4-DF44-4B4D-A69B-E2BDE246991A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C837BA4-DF44-4B4D-A69B-E2BDE246991A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C837BA4-DF44-4B4D-A69B-E2BDE246991A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
