@@ -50,6 +50,10 @@
         // Bài 1: tạo đối tượng sản phẩm (mã sản phẩm, tên sản phẩm, giá bán, số lượng tồn kho)
         // nhập và xuất thông tin sản phẩm
 
+        SanPham sanPham = new SanPham();
+        sanPham.nhapThongTin();
+        sanPham.xuatThongTin();
+
         // Bài 2:
         // Tạo lớp Rectangle (hình chữ nhật) với các thuộc tính:
 
@@ -59,8 +63,6 @@
         // nhập thông tin
         // Tính diện tích (area)
         // Tính chu vi (perimeter)
-
-        
 
     }
 }

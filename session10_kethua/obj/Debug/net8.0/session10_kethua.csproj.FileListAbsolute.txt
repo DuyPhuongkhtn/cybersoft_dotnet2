@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/bin/Debug/net8.0/session10_kethua
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/bin/Debug/net8.0/session10_kethua.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/bin/Debug/net8.0/session10_kethua.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/bin/Debug/net8.0/session10_kethua.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/bin/Debug/net8.0/session10_kethua.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/refint/session10_kethua.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/session10_kethua.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session10_kethua/obj/Debug/net8.0/ref/session10_kethua.dll
