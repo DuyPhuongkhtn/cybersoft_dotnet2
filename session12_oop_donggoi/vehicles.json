@@ -1,0 +1,1 @@
+[{"Model":"camry","Color":"den","Engine":22000,"VehicleId":"1","Brand":"toyota","Year":2024,"Price":1000000000.0}]
