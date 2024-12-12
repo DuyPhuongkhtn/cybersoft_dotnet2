@@ -1,0 +1,15 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Animal, session15_oop_dahinh]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "Dog, session15_oop_dahinh",
+      "Breed": "Bulldog",
+      "Name": "Hehe"
+    },
+    {
+      "$type": "Cat, session15_oop_dahinh",
+      "Color": "White",
+      "Name": "Meo"
+    }
+  ]
+}

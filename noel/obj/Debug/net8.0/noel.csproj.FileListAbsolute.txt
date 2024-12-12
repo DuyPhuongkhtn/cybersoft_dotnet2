@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/bin/Debug/net8.0/noel
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/bin/Debug/net8.0/noel.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/bin/Debug/net8.0/noel.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/bin/Debug/net8.0/noel.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/bin/Debug/net8.0/noel.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/refint/noel.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/noel.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/noel/obj/Debug/net8.0/ref/noel.dll

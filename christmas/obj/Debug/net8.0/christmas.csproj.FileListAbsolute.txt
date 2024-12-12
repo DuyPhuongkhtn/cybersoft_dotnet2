@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/bin/Debug/net8.0/christmas
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/bin/Debug/net8.0/christmas.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/bin/Debug/net8.0/christmas.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/bin/Debug/net8.0/christmas.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/bin/Debug/net8.0/christmas.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/refint/christmas.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/christmas.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/christmas/obj/Debug/net8.0/ref/christmas.dll
