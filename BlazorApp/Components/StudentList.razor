@@ -1,0 +1,124 @@
+@using BlazorApp.Models
+
+<h4>Student List</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Students)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Age</td>
+                <td>
+                    <button class="btn btn-primary" @onclick="() => ShowEditPopup(student)">Edit</button>
+                    <button class="btn btn-danger" @onclick="() => DeleteStudent(student.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button class="btn btn-success" @onclick="ShowAddPopup">Add New Student</button>
+
+<!-- Modal -->
+<div class="modal fade @(IsPopupVisible ? "show d-block" : "")" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@PopupTitle</h5>
+                <button type="button" class="close" @onclick="ClosePopup" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="studentName">Name</label>
+                    <input type="text" id="studentName" class="form-control" @bind="SelectedStudent.Name" />
+                </div>
+                <div class="form-group">
+                    <label for="studentAge">Age</label>
+                    <input type="number" id="studentAge" class="form-control" @bind="SelectedStudent.Age" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" @onclick="ClosePopup">Cancel</button>
+                <button type="button" class="btn btn-primary" @onclick="SaveStudent">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Student> Students = new();
+    private bool IsPopupVisible = false;
+    private string PopupTitle = "";
+    private Student SelectedStudent = new();
+    private bool IsEditing = false;
+
+    protected override void OnInitialized()
+    {
+        Students = new List<Student>
+        {
+            new Student { Id = 1, Name = "John Doe", Age = 20 },
+            new Student { Id = 2, Name = "Jane Smith", Age = 22 }
+        };
+    }
+
+    private void ShowAddPopup()
+    {
+        SelectedStudent = new Student { Id = Students.Count + 1 };
+        PopupTitle = "Add New Student";
+        IsEditing = false;
+        IsPopupVisible = true;
+    }
+
+    private void ShowEditPopup(Student student)
+    {
+        SelectedStudent = new Student { Id = student.Id, Name = student.Name, Age = student.Age };
+        PopupTitle = "Edit Student";
+        IsEditing = true;
+        IsPopupVisible = true;
+    }
+
+    private void ClosePopup()
+    {
+        IsPopupVisible = false;
+    }
+
+    private void SaveStudent()
+    {
+        if (IsEditing)
+        {
+            var student = Students.FirstOrDefault(s => s.Id == SelectedStudent.Id);
+            if (student != null)
+            {
+                student.Name = SelectedStudent.Name;
+                student.Age = SelectedStudent.Age;
+            }
+        }
+        else
+        {
+            Students.Add(new Student { Id = SelectedStudent.Id, Name = SelectedStudent.Name, Age = SelectedStudent.Age });
+        }
+
+        ClosePopup();
+    }
+
+    private void DeleteStudent(int id)
+    {
+        var student = Students.FirstOrDefault(s => s.Id == id);
+        if (student != null)
+        {
+            Students.Remove(student);
+        }
+    }
+}

@@ -1,0 +1,107 @@
+<!-- ctrl + /: Comment code (windows)
+Cmd + /: Comment code (mac) -->
+<!-- Đoạn comment -->
+<!-- zxczxczxczxc
+ zxczxczxczxc
+ zxczxczxczxc -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- thẻ head chứa các thông tin thêm (metadata) của website
+        không hiển thị trên trình duyệt -->
+    <!-- SEO: Search Engine Optimization -->
+    <!-- name, content: thuộc tính của thẻ meta -->
+    <meta name="description" content="Cybersoft coffee">
+
+    <!-- khai báo cho browser biết trang web đang sử dụng ngôn ngữ có dấu -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Cybersoft coffee</title>
+</head>
+
+<body>
+    <!-- text-align: căn vị trí của chữ -->
+    <!-- background-color: màu nền của thẻ -->
+    <!-- color: màu chữ -->
+    <h1 style="text-align: center; background-color: green; color: white;">Cybersoft Coffee</h1>
+
+    <!-- Thẻ liên kết -->
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <!-- Liên kết ngoại -->
+    <!-- target="_blank": mở liên kết trong tab mới -->
+    <a href="https://pasgo.vn/" target="_blank">Order</a>
+
+    <!-- vẽ đường line -->
+    <!-- noshade: không hiển thị shadow -->
+    <!-- pixel: giá trị tuyệt đối. Không thay đổi kích thước mỗi khi thay đổi width -->
+    <!-- giá trị tương đối: % -->
+    <hr style="height: 5px; width: 50%;" noshade>
+
+    <h2 style="text-align: center; color: burlywood;">About the Coffee</h2>
+    <p style="text-align: right;">
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+        <br>
+        <i>Harum amet aperiam quaerat inventore eos?</i>
+        <br>
+        <b>
+            <i>Excepturi distinctio fuga, 
+                fugiat possimus eum optio ipsam non nesciunt nihil odit?</i>
+        </b>
+        <!-- br*5: tạo 5 dòng trắng -->
+        <br>
+        Eaque repellat dolorum deserunt.
+    </p>
+    <hr style="height: 5px; width: 50%;" noshade>
+    <h3 style="text-align: center; color: burlywood;">Special Item</h3>
+
+    <h4>The coffee List 1</h4>
+    <!-- Thẻ danh sách -->
+     <!-- không có thứ tự -->
+      <!-- ul (ở ngoài), li (ở trong) -->
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+     <!-- có thứ tự -->
+        <!-- ol (ở ngoài), li (ở trong) -->
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- thẻ đọc hình -->
+     <!-- src: đường dẫn tới hình -->
+    <!-- đường dẫn tuyệt đối: không nên dùng -->
+    <!-- đường dẫn tương đối: nên dùng -->
+    <!-- alt: mô tả hình. Hỗ trợ SEO. Hỗ trợ web accessibility (dành người khuyết tật). Hỗ trợ dev tìm lỗi khi không có hình -->
+     <!-- ./: lấy các file, folder cùng cấp với file index.html -->
+      <!-- ../: nhảy ra 1 cấp folder cha -->
+    <img src="./img/chilling-cafe-01.jpg" alt="Coffee">
+
+    <hr style="height: 5px; width: 50%;" noshade>
+    <h3 style="text-align: center; color: burlywood;">Menu</h3>
+
+    <!-- Thẻ table -->
+     <!-- table -->
+      <table style="width: 800px; height: 300px;" border="4" align="center">
+        <!-- tr: hàng -->
+         <!-- th, td: cột -->
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Type</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td style="background-image: url(./img/chilling-cafe-11.jpg);">Traditional Coffee</td>
+            <td>Vietnamese coffee pin</td>
+            <td>Hot</td>
+            <td>20.000 VND</td>
+        </tr>
+      </table>
+      <br><br><br><br><br>
+</body>
+
+</html>
