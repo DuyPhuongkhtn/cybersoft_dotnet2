@@ -1,0 +1,24 @@
+/* global: xóa các khoảng trắng của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* B1: xóa dấu chấm trong danh sách */
+.header {
+    background-color: #f8e1db;
+}
+
+.header ul {
+    list-style: none;
+}
+
+/* B2: chuyển thẻ li từ block => inline */
+.header li {
+    display: inline;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}

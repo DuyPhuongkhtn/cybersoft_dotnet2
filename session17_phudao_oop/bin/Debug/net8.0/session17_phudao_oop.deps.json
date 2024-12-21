@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "session17_phudao_oop/1.0.0": {
+        "runtime": {
+          "session17_phudao_oop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "session17_phudao_oop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

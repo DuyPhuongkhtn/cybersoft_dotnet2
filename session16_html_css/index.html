@@ -26,11 +26,17 @@ Cmd + /: Comment code (mac) -->
     <h1 style="text-align: center; background-color: green; color: white;">Cybersoft Coffee</h1>
 
     <!-- Thẻ liên kết -->
-    <a href="#">Home</a>
-    <a href="#">Menu</a>
-    <!-- Liên kết ngoại -->
-    <!-- target="_blank": mở liên kết trong tab mới -->
-    <a href="https://pasgo.vn/" target="_blank">Order</a>
+
+    <!-- do thẻ a là thẻ inline
+    =>để menu trong thẻ div -->
+    <div style="text-align: center;">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <!-- Liên kết ngoại -->
+        <!-- target="_blank": mở liên kết trong tab mới -->
+        <a href="https://pasgo.vn/" target="_blank">Order</a>
+    </div>
+
 
     <!-- vẽ đường line -->
     <!-- noshade: không hiển thị shadow -->
@@ -38,34 +44,35 @@ Cmd + /: Comment code (mac) -->
     <!-- giá trị tương đối: % -->
     <hr style="height: 5px; width: 50%;" noshade>
 
-    <h2 style="text-align: center; color: burlywood;">About the Coffee</h2>
+    <h2 style="text-align: right;color: burlywood;">About the Coffee</h2>
     <p style="text-align: right;">
         <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
         <br>
         <i>Harum amet aperiam quaerat inventore eos?</i>
         <br>
         <b>
-            <i>Excepturi distinctio fuga, 
+            <i>Excepturi distinctio fuga,
                 fugiat possimus eum optio ipsam non nesciunt nihil odit?</i>
         </b>
         <!-- br*5: tạo 5 dòng trắng -->
         <br>
         Eaque repellat dolorum deserunt.
     </p>
+    <!-- thêm code css trong chính thẻ html => inline css -->
     <hr style="height: 5px; width: 50%;" noshade>
     <h3 style="text-align: center; color: burlywood;">Special Item</h3>
 
     <h4>The coffee List 1</h4>
     <!-- Thẻ danh sách -->
-     <!-- không có thứ tự -->
-      <!-- ul (ở ngoài), li (ở trong) -->
+    <!-- không có thứ tự -->
+    <!-- ul (ở ngoài), li (ở trong) -->
     <ul type="circle">
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
-     <!-- có thứ tự -->
-        <!-- ol (ở ngoài), li (ở trong) -->
+    <!-- có thứ tự -->
+    <!-- ol (ở ngoài), li (ở trong) -->
     <ol type="I">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -73,35 +80,60 @@ Cmd + /: Comment code (mac) -->
     </ol>
 
     <!-- thẻ đọc hình -->
-     <!-- src: đường dẫn tới hình -->
+    <!-- src: đường dẫn tới hình -->
     <!-- đường dẫn tuyệt đối: không nên dùng -->
     <!-- đường dẫn tương đối: nên dùng -->
     <!-- alt: mô tả hình. Hỗ trợ SEO. Hỗ trợ web accessibility (dành người khuyết tật). Hỗ trợ dev tìm lỗi khi không có hình -->
-     <!-- ./: lấy các file, folder cùng cấp với file index.html -->
-      <!-- ../: nhảy ra 1 cấp folder cha -->
+    <!-- ./: lấy các file, folder cùng cấp với file index.html -->
+    <!-- ../: nhảy ra 1 cấp folder cha -->
     <img src="./img/chilling-cafe-01.jpg" alt="Coffee">
 
     <hr style="height: 5px; width: 50%;" noshade>
     <h3 style="text-align: center; color: burlywood;">Menu</h3>
 
     <!-- Thẻ table -->
-     <!-- table -->
-      <table style="width: 800px; height: 300px;" border="4" align="center">
-        <!-- tr: hàng -->
-         <!-- th, td: cột -->
+    <!-- table -->
+    <table style="width: 800px; height: 300px;" border="4" align="center">
         <tr>
             <th colspan="2">Name</th>
             <th>Type</th>
             <th>Price</th>
         </tr>
         <tr>
-            <td style="background-image: url(./img/chilling-cafe-11.jpg);">Traditional Coffee</td>
-            <td>Vietnamese coffee pin</td>
+            <td style="color: red; background-image: url(./img/chilling-cafe-11.jpg); font-size: 30px;" rowspan="4">
+                Traditional Coffee</td>
+            <td rowspan="2">Vietnamese Coffee</td>
             <td>Hot</td>
-            <td>20.000 VND</td>
+            <td>60.000</td>
         </tr>
-      </table>
-      <br><br><br><br><br>
+        <tr>
+            <td>Cold</td>
+            <td>28.000</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Milk coffee</td>
+            <td>Hot</td>
+            <td>38.000</td>
+        </tr>
+        <tr>
+            <td>Cold</td>
+            <td>54.000</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Expresso</td>
+            <td>American coffee</td>
+            <td rowspan="3">Hot</td>
+            <td>110.000</td>
+        </tr>
+        <tr>
+            <td>Machiato</td>
+            <td rowspan="2">40.000</td>
+        </tr>
+        <tr>
+            <td>Capuchino</td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/bin/Debug/net8.0/Game2048
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/bin/Debug/net8.0/Game2048.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/bin/Debug/net8.0/Game2048.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/bin/Debug/net8.0/Game2048.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/bin/Debug/net8.0/Game2048.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/refint/Game2048.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/Game2048.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/Game2048/obj/Debug/net8.0/ref/Game2048.dll

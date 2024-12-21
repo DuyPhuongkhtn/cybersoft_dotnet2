@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/bin/Debug/net8.0/MazeSolver
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/bin/Debug/net8.0/MazeSolver.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/bin/Debug/net8.0/MazeSolver.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/bin/Debug/net8.0/MazeSolver.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/bin/Debug/net8.0/MazeSolver.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/refint/MazeSolver.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/MazeSolver.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/MazeSolver/obj/Debug/net8.0/ref/MazeSolver.dll

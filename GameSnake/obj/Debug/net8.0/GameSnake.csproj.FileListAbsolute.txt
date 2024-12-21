@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/bin/Debug/net8.0/GameSnake
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/bin/Debug/net8.0/GameSnake.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/bin/Debug/net8.0/GameSnake.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/bin/Debug/net8.0/GameSnake.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/bin/Debug/net8.0/GameSnake.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/refint/GameSnake.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/GameSnake.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameSnake/obj/Debug/net8.0/ref/GameSnake.dll

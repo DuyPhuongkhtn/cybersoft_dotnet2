@@ -23,7 +23,7 @@ class ChristmasCard
         Random rand = new Random();
         int width = Console.WindowWidth;
         int height = Console.WindowHeight - 5; // Dành không gian cho cây thông và lời chúc
-        char[] snowChars = { '*', '.', '+', '❄', ' ' }; // Ký tự tuyết
+        char[] snowChars = { '*', '.', '+', '❄', ' ', '-' }; // Ký tự tuyết
 
         string[] tree = {
             "        *        ",
@@ -121,7 +121,7 @@ class ChristmasCard
                 Console.Write(wishes[i]);
             }
 
-            Thread.Sleep(100); // Tốc độ khung hình
+            Thread.Sleep(150); // Tốc độ khung hình
         }
     }
 
@@ -141,3 +141,27 @@ class ChristmasCard
         return lightColors[rand.Next(lightColors.Length)];
     }
 }
+// cấu trúc dữ liệu và giải thuật
+// sort (O(n^2) hoặc (O(nlogn)):
+// O(N^2): bubble sort, selection sort, insertion sort,...
+// O(NlogN): quick sort, merge sort, heap sort, shell sort, ...
+
+// tìm kiếm (O(n) hoặc O(logn)):
+
+// stack, queue, linked list, tree, graph, hash table,....
+// quy hoạch động, chia để trị, tham lam, quay lui,....
+
+// OOP
+// tính kế thừa
+// tính đóng gói
+// tính đa hình
+// tính trừu tượng
+
+// tuần sau
+// code năm mới 2025 bằng c# => option1
+// valentine => option2
+
+// tìm đường đi ngắn nhất (Dijstra) giữa 2 tỉnh, 2 huyện,.... => option3
+// ........
+
+// game: snake, tic tac toe, 2048,... => option4

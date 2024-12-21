@@ -1,0 +1,15 @@
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/bin/Debug/net8.0/GameTeris
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/bin/Debug/net8.0/GameTeris.deps.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/bin/Debug/net8.0/GameTeris.runtimeconfig.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/bin/Debug/net8.0/GameTeris.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/bin/Debug/net8.0/GameTeris.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.AssemblyInfoInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.AssemblyInfo.cs
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.csproj.CoreCompileInputs.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.sourcelink.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/refint/GameTeris.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/GameTeris.genruntimeconfig.cache
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/GameTeris/obj/Debug/net8.0/ref/GameTeris.dll
