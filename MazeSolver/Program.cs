@@ -9,8 +9,8 @@ class MazeSolver
     const char PLAYER = 'P'; // Nhân vật di chuyển
     const char VISITED = '*'; // Đường đã đi
 
-    static int rows = 15; // Kích thước mê cung
-    static int cols = 15;
+    static int rows = 25; // Kích thước mê cung
+    static int cols = 25;
     static char[,] maze;
     static (int, int) start;
     static (int, int) end;

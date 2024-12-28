@@ -1,40 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- main style.css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!-- header -->
     <div class="header">
-        <!-- avatar -->
-         <img src="./img/logoicon.png" alt="">
+        <!-- BEM: quy tắc đặt tên class -->
+         <!-- thêm div này để căn nội dung ở chính giữa màn hình
+         theo chiều ngang -->
+        <div class="header__content">
+            <!-- avatar -->
+            <img src="./img/logoicon.png" alt="">
 
-         <!-- menu -->
-          <!-- dùng cặp thẻ ul và li -->
-        <!-- ul>li*6>a + tab: tạo nhanh menu -->
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact us</a></li>
-        </ul>
+            <!-- menu -->
+            <!-- dùng cặp thẻ ul và li -->
+            <!-- ul>li*6>a + tab: tạo nhanh menu -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
     </div>
 
     <!-- carousel -->
     <div class="carousel"></div>
 
     <!-- activities -->
-    <div class="activities"></div>
+    <div class="activities">
+        <div class="activities__content">
+            <div class="activities__heading">
+                <img src="./img/Group 313.png" alt="">
+                <h2>Explore Desination & Activities</h2>
+            </div>
+            <div class="activities__product">
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                            <div class="activities__love">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="activities__desc">
+                            <h3>product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                        </div>
+                        <div class="activities__desc">
+                            <h3>product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                        </div>
+                        <div class="activities__desc">
+                            <h3>product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activities__item">
+                    <div class="activities__card">
+                        <div class="activities__img">
+                            <img src="./img/product1.png" alt="">
+                        </div>
+                        <div class="activities__desc">
+                            <h3>product 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="activities__view">
+                <button class="activities__viewall">View All</button>
+            </div>
+        </div>
+    </div>
 
     <!-- contact -->
-    <div class="contact"></div>
+    <div class="contact">
+        <div class="container">
+            <div class="contact__left">
+                <img src="./img/homeicon.png" alt="">
+            </div>
+            <div class="contact__right">
+                <h2>Let's Stay in Touch</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam eius</p>
+                <div class="contact__app">
+                    <h3>Download Our App</h3>
+                    <div>
+                        <img src="./img/download-on-the-app-store-apple-1.png" alt="">
+                        <img src="./img/google-play-badge-1.png" alt="">
+                    </div>
+                </div>
+                <div class="contact__follow">
+                    <h3>Follow us</h3>
+                    <div>
+                        <!-- icon -->
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-square"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- footer -->
     <div class="footer"></div>
 </body>
+
 </html>

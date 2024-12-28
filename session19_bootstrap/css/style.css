@@ -1,0 +1,42 @@
+.left {
+    width: 50%;
+    background-color: green;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.right {
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.left1 {
+    /* width: 50%; */
+    background-color: green;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.right1 {
+    /* width: 50%; */
+    background-color: red;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .left1 {
+        background-color: red;
+    }
+
+    .right1 {
+        background-color: green;
+    }
+}

@@ -2,11 +2,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* B1: xóa dấu chấm trong danh sách */
 .header {
     background-color: #f8e1db;
+}
+
+.header__content {
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .header ul {
@@ -16,9 +22,174 @@
 /* B2: chuyển thẻ li từ block => inline */
 .header li {
     display: inline;
+    margin: 20px;
+    /* padding: 20px; */
+    /* border: 3px solid red; */
 }
 
 .header a {
     text-decoration: none;
     color: black;
+}
+
+/* carousel */
+.carousel {
+    background-image: url(../img/BG.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* activities */
+.activities {
+    /* 50px: top-bottom;
+    0: left-right */
+    /* padding: 50px; top-bottom-left-right: 50px */
+
+    /* 4 số: tính theo chiều kim đồng hồ */
+    /* top-right-bottom-left */
+    /* padding: 10px 15px 20px 25px; */
+    padding: 50px 0;
+    background-color: #faf4f2;
+}
+
+.activities__heading {
+    text-align: center;
+}
+
+/* (25% + 10px) *4 > 100% */
+/* => dùng box-sizing: border-box;
+để giải quyết vấn đề này */
+
+.activities__item {
+    float: left;
+    width: 25%;
+
+    padding: 20px 10px;
+    text-align: center;
+    /* border-radius: 20px;
+    background-color: white; */
+}
+
+.activities__card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.activities__love {
+    color: red;
+    font-size: 25px;
+    width: 42px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.377);
+    line-height: 42px;
+
+    /* đánh dấu class này là class con */
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+/* set position giữa card và love */
+.activities__img {
+    /* đánh dấu class này là class cha */
+    position: relative;
+}
+
+.activities__img img {
+    border-radius: 20px;
+}
+
+.activities__desc h3 {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.activities__desc p {
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.activities__desc button {
+    padding: 13px 50px;
+    /* border: 1px solid gray; */
+    border: transparent;
+    border-radius: 25px;
+    color: #8d8d8d;
+    background-color:  #e8e8e8;
+    /* khoảng cách giữa các chữ */
+    letter-spacing: 1px;
+    /* con trỏ chuột khi hover vào button */
+    cursor: pointer;
+}
+
+/* khi hover vafo button thì đổi màu chữ */
+.activities__desc button:hover,
+.activities__viewall:hover {
+    color: white;
+    background-color: #f8e1db;
+}
+
+.activities__viewall {
+    color: #e76f51;
+    border: 1px solid #e76f51;
+    border-radius: 25px;
+    padding: 13px 50px;
+    background-color: transparent;
+}
+
+.activities__view {
+    text-align: center;
+}
+/* sau khi dùng xong float thì phải clear */
+
+.clear {
+    clear: both;
+}
+
+/* contact */
+.contact {
+    background-color: #f8e1db;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 1440px;
+    height: 400px;
+    margin: auto;
+}
+
+.contact__left,
+.contact__right {
+    float: left;
+    width: 50%;
+    padding: 20px 60px;
+}
+
+.contact__left {
+    background-image: url(../img/mask.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact__app,
+.contact__follow {
+    float: left;
+    width: 50%;
+    padding-right: 15px;
+}
+
+.contact__app img {
+    float: left;
+    width: 50%;
+}
+
+.contact__follow i {
+    color: red;
+    font-size: 25px;
+    margin-right: 10px;
 }
