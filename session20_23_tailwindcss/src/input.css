@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-bodyColor;
+}
+
+.demo {
+    @apply flex justify-between; /*dùng class có sẵn của tailwind*/
+    align-items: center; /*dùng css thuần*/
+}
+
+.demo .demo1 {
+    /* C1: style trong input.css */
+    /* @apply hover:bg-green-500 duration-200; */
+    /* duration-200 => transition: all 200ms */
+}
+
+
+/* mobile first
+từng item trên từng hàng */
+.grid__container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.grid__container .item__1 {
+    @apply bg-red-500 md:bg-zinc-600 lg:bg-purple-500 p-3 m-3 h-20;
+}
+
+.grid__container .item__2 {
+    /* p: padding
+    m: margin */
+    @apply bg-blue-500 p-3 m-3 h-20;
+}
+
+.grid__container .item__3 {
+    @apply bg-rose-600 p-3 m-3 h-20;
+}
