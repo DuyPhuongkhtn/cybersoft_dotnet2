@@ -134,3 +134,164 @@
     padding: 12px 16px;
     cursor: pointer;
 }
+
+/* header__center__nav */
+
+.header__center__nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none; /* loại bỏ dấu chấm tròn */
+    gap: 25px; /* tạo khoảng cách giữa các phần tử */
+}
+
+/* set vị trí giữa icon và số */
+.header__center__nav .heart__icon a,
+.header__center__nav .cart__icon a{
+    position: relative;
+    display: inline;
+}
+
+/* style cho số lượng */
+.header__center__nav .heart__icon span,
+.header__center__nav .cart__icon span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 18px;
+    width: 18px;
+    background: #e7ab3c;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style icon */
+.header__center__nav .heart__icon a i,
+.header__center__nav .cart__icon a i {
+    font-size: 20px;
+    color: #252525;
+    transition: all 0.3s ease;
+}
+
+/* xử lý show/hidden cart__hover */
+.cart__icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart__hover {
+    position: absolute;
+    width: 360px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    right: -23px;
+    top: 50px;
+    /* trước khi hover: ẩn đi */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    transform: translateY(10px);
+}
+
+.cart__icon:hover .cart__hover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.cart__hover .select__item table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.cart__hover .select__item td {
+    padding: 15px 0;
+
+}
+
+/* select total */
+.cart__hover .select__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+/* select__button */
+.cart__hover .select__button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.cart__hover .primary__btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.primary__btn.view__cart {
+    background: burlywood;
+}
+
+.primary__btn.checkout__btn {
+    background: #e7ab3c;
+}
+
+/* header__nav */
+.header__nav {
+    background: #252525;
+    display: flex;
+    align-items: stretch;
+}
+
+.header__nav .nav__depart {
+    height: 100%;
+}
+
+.header__nav .depart__btn {
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__nav .depart__btn .depart__hover {
+    position: absolute;
+    width: 200px;
+    background: white;
+    box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    padding: 20px 20px;
+
+    /* trước khi hover: ẩn đi */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    transform: translateY(10px);
+}
+
+.header__nav .depart__btn:hover .depart__hover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.header__nav .depart__btn .depart__hover li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.header__nav .depart__btn .depart__hover li a {
+    color: black;
+    text-decoration: none;
+}
