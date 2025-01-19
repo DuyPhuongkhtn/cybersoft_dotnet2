@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MpyKLMpppGw=",
+  "dgSpecHash": "5+68GPLlTBw=",
   "success": true,
   "projectFilePath": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session8_test/session8_test.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.12/microsoft.netcore.app.host.osx-arm64.8.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

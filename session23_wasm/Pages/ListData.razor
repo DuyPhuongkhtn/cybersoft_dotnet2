@@ -1,0 +1,39 @@
+@page "/list-data"
+
+<h1>Danh sách sinh viên</h1>
+
+<div class="container">
+    <ol class="list-group list-group-numbered">
+        @foreach (var student in students)
+        {
+            <li class="list-group-item">@student.Name</li>
+        }
+    </ol   @* <ol class="list-group list-group-numbered">
+        <li class="list-group-item">A list item</li>
+        <li class="list-group-item">A list item</li>
+        <li class="list-group-item">A list item</li>
+    </ol> *@
+</div>
+
+@code {
+    public class Student
+    {
+        public string Name;
+        public int Age;
+        public string Email;
+    }
+
+    // define list Student
+    List<Student> students = new List<Student> {
+        new Student {
+        Name = "Nguyễn Văn A",
+        Age = 20,
+        Email = "nguyenvana@gmail.com"
+        },
+        new Student {
+        Name = "Nguyễn Văn B",
+        Age = 25,
+        Email = "nguyenvanb@gmail.com"
+        }
+    };
+}

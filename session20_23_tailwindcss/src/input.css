@@ -14,3 +14,15 @@ body {
 .button__gradient {
     @apply bg-gradient-text text-white rounded-3xl px-6 py-3;
 }
+
+/* style cho dots của slick carousel */
+.feedback .slick-dots li button:before {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.input__custom {
+    background-color: unset;
+    border: none;
+}

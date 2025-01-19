@@ -1,0 +1,24 @@
+@page "/counter-update"
+
+<h1>Counter Update</h1>
+<p>Current count: @counter</p>
+<div class="row">
+    <div class="col-2">
+        <button class="btn btn-danger" @onclick="IncrementCount">+</button>
+    </div>
+    <div class="col-2">
+        <button class="btn btn-success" @onclick="DecrementCount">-</button>
+    </div>
+</div>
+
+@code {
+    private int counter = 0;
+
+    private void IncrementCount() {
+        counter++;
+    }
+
+    private void DecrementCount() {
+        counter--;
+    }
+}

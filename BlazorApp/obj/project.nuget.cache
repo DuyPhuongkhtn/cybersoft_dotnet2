@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dnxmJsTwiHM=",
+  "dgSpecHash": "vDLU0A4tsJ4=",
   "success": true,
   "projectFilePath": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/BlazorApp/BlazorApp.csproj",
   "expectedPackageFiles": [
@@ -28,12 +28,14 @@
     "/Users/dinhduyphuong/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.jsinterop/8.0.6/microsoft.jsinterop.8.0.6.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.jsinterop.webassembly/8.0.6/microsoft.jsinterop.webassembly.8.0.6.nupkg.sha512",
-    "/Users/dinhduyphuong/.nuget/packages/microsoft.net.illink.tasks/8.0.6/microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
-    "/Users/dinhduyphuong/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.6/microsoft.net.sdk.webassembly.pack.8.0.6.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.net.illink.tasks/8.0.12/microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.1/microsoft.net.sdk.webassembly.pack.9.0.1.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.6/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.6.nupkg.sha512"
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.12/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
   ],
   "logs": []
 }

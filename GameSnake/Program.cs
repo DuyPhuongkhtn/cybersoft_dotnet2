@@ -3,10 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
+// live game rắn săn mồi => code
+// tuần sau: live game xếp hình (teris) => code
+// tuần sau nữa: live game caro có AI (minimax) => đang code
+// tuần sau nữa: live web chat realtime (signalR), có thể có deploy => plan
+// tuần sau nữa: live thuật toán tìm đường đi ngắn nhất (Dijstra)
+//.....
+// gần tới va lung tung: web tỏ tình bằng c#
+
 class SnakeGame
 {
-    private static int screenWidth = 40;
-    private static int screenHeight = 20;
+    private static int screenWidth = 60;
+    private static int screenHeight = 30;
     private static int score = 0;
     private static List<(int, int)> snake = new List<(int, int)>() { (10, 10) };
     private static (int, int) food = (15, 10);

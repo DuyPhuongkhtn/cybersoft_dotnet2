@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9pmZfEbP9RQ=",
+  "dgSpecHash": "U14ei/R53PE=",
   "success": true,
   "projectFilePath": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session11_phudao_oop/session11_phudao_oop.csproj",
   "expectedPackageFiles": [
-    "/Users/dinhduyphuong/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/dinhduyphuong/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.12/microsoft.netcore.app.host.osx-arm64.8.0.12.nupkg.sha512"
   ],
   "logs": []
 }
