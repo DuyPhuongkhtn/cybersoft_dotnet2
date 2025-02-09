@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session24_bt", "session24_b
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session25", "session25\session25.csproj", "{1DD62F26-9029-43E2-B19B-19EFD287AC62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session26_validation_component_razor", "session26_validation_component_razor\session26_validation_component_razor.csproj", "{922A6115-0672-4A32-B3A6-D95863033F53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922A6115-0672-4A32-B3A6-D95863033F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922A6115-0672-4A32-B3A6-D95863033F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922A6115-0672-4A32-B3A6-D95863033F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922A6115-0672-4A32-B3A6-D95863033F53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

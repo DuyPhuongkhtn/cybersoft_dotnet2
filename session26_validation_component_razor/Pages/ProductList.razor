@@ -1,0 +1,50 @@
+@page "/products"
+@using session26_validation_component_razor.Components
+
+<h2 class="text-center">Danh sách sản phẩm</h2>
+@* <ProductItem Product="products[0]" /> *@
+
+<div class="container">
+    <div class="row">
+        @foreach(var product in products){
+            <div class="col-md-4 mb-4">
+                <ProductItem Product="product">
+                    <p class="text-danger text-center">Sản phẩm chất lượng cao</p>
+                </ProductItem>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private List<ProductModel> products = new() {
+        new ProductModel{
+            Id = "1",
+            Name = "SH 2024",
+            Price = "60000000",
+            ImageUrl = "sh_mode2025.png",
+            Quantity = 10
+        },
+        new ProductModel{
+            Id = "2",
+            Name = "SH 2025",
+            Price = "65000000",
+            ImageUrl = "sh_mode2025.png",
+            Quantity = 11
+        },
+        new ProductModel{
+            Id = "3",
+            Name = "SH 2023",
+            Price = "60000000",
+            ImageUrl = "sh_mode2025.png",
+            Quantity = 9
+        },
+        new ProductModel{
+            Id = "4",
+            Name = "SH 2022",
+            Price = "60000000",
+            ImageUrl = "sh_mode2025.png",
+            Quantity = 9
+        },
+    };
+}
