@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container-fluid">
+    @* Sidebar *@
+    <div class="row vh-100">
+        @* d-flex: display: flex *@
+        @* flex-column: sắp xếp các item theo chiều dọc *@
+        @* align-item-center: sắp xếp các item ở chính giữa theo chiều dọc *@
+        @* justify-content-center: sắp xếp các item ở chính giữa theo chiều ngang *@
+        @* h-100: setup cho div này full màn hình theo chiều cao *@
+        <div class="col-3 position-fixed h-100 d-flex flex-column align-items-center justify-content-center"
+            style="background-color: #bd5d38">
+            @* avatar *@
+            <div class="d-flex align-items-center justify-content-center">
+                <img class="rounded-circle" style="width: 160px; height: 160px;" src="profile.jpg" alt="">
+            </div>
+            <NavMenu />
+        </div>
+
+        @* Main content *@
+        @* ms-auto: đẩy nội dung trong Body sang bên phải để dành chỗ cho sidebar*@
+        <div class="col-9 ms-auto">
+            @Body
+        </div>
+    </div>
+</div>

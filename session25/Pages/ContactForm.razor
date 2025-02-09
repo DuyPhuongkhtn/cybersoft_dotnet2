@@ -1,0 +1,66 @@
+@page "/contact"
+
+<h1>Contact form</h1>
+
+<EditForm Model="contactModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container mt-6">
+        <div class="d-flex gap-5">
+            <div class="form-container w-50">
+                <div class="form-group">
+                    <label>Full name</label>
+                    <input @bind="contactModel.FullName" class="form-control">
+                    <ValidationMessage For="@(() => contactModel.FullName)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input @bind="contactModel.Email" class="form-control">
+                    <ValidationMessage For="@(() => contactModel.Email)" />
+                </div>
+
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input @bind="contactModel.Phone" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Address</label>
+                    <input @bind="contactModel.Address" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea @bind="contactModel.Message" class="form-control" rows="4" style="resize: none;"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Select service</label>
+                    <select @bind="contactModel.Services" class="form-control">
+                        <option value="">Choose.....</option>
+                        <option value="service1">service 1</option>
+                        <option value="service2">service 2</option>
+                        <option value="service3">service 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+            <div class="form-information w-50">
+                <p><strong>Fullname:</strong>@contactModel.FullName</p>
+                <p><strong>Email:</strong>@contactModel.Email</p>
+                <p><strong>Phone:</strong>@contactModel.Phone</p>
+                <p><strong>Address:</strong>@contactModel.Address</p>
+                <p><strong>Message:</strong>@contactModel.Message</p>
+                <p><strong>Service:</strong>@contactModel.Services</p>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private ContactModel contactModel = new ContactModel();
+
+    private void HandleValidSubmit() {
+        Console.WriteLine("Form submitted");
+    }
+}

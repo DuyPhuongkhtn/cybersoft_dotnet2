@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game2048", "Game2048\Game20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session17_phudao_oop", "session17_phudao_oop\session17_phudao_oop.csproj", "{20E80FDB-BBD9-4892-91D6-D83AE72848CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session24_bt", "session24_bt\session24_bt.csproj", "{3D77781A-63EF-4A53-B79C-7074143DAF9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session25", "session25\session25.csproj", "{1DD62F26-9029-43E2-B19B-19EFD287AC62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{20E80FDB-BBD9-4892-91D6-D83AE72848CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E80FDB-BBD9-4892-91D6-D83AE72848CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E80FDB-BBD9-4892-91D6-D83AE72848CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D77781A-63EF-4A53-B79C-7074143DAF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D77781A-63EF-4A53-B79C-7074143DAF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D77781A-63EF-4A53-B79C-7074143DAF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D77781A-63EF-4A53-B79C-7074143DAF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD62F26-9029-43E2-B19B-19EFD287AC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

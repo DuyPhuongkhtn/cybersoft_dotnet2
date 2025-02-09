@@ -1,0 +1,75 @@
+@page "/register"
+
+<h1>Register</h1>
+
+<EditForm Model="userModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container d-flex gap-2 mt-4">
+        <div class="form-container">
+            <div class="form-group">
+                <label>User name</label>
+                <input class="form-control" @bind="userModel.UserName" />
+                <ValidationMessage For="@(() => userModel.UserName)" />
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" @bind="userModel.Password" />
+                <ValidationMessage For="@(() => userModel.Password)" />
+            </div>
+
+            <div class="form-group">
+                <label>Full name</label>
+                <input class="form-control" @bind="userModel.FullName" />
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="Male" @onchange="HandleChange"
+                    checked="@(userModel.Gender == "Male")" />
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="Female" @onchange="HandleChange"
+                    checked="@(userModel.Gender == "Female")" />
+                <label>Female</label>
+            </div>
+
+            <div class="form-group">
+                <label>Country</label>
+                <input class="form-control" @bind="userModel.Country" />
+            </div>
+
+            <div class="form-group">
+                <label>Phone number</label>
+                <input class="form-control" @bind="userModel.Phone" />
+                <ValidationMessage For="@(() => userModel.Phone)" />
+            </div>
+
+            <button class="btn btn-success" type="submit">Register</button>
+
+        </div>
+        <div class="info-container">
+            <h3>User information</h3>
+            <p><strong>Username:</strong> @userModel.UserName</p>
+            <p><strong>Password:</strong> @userModel.Password</p>
+            <p><strong>Fullname:</strong> @userModel.FullName</p>
+            <p><strong>Gender:</strong> @userModel.Gender</p>
+            <p><strong>Country:</strong> @userModel.Country</p>
+        </div>
+    </div>
+
+</EditForm>
+
+@code {
+    private UserModel userModel = new UserModel();
+
+    private void HandleChange(ChangeEventArgs e)
+    {
+        @* Nếu event không có value thì sẽ lấy Male làm value mặc định *@
+        userModel.Gender = e.Value?.ToString() ?? "Male";
+    }
+
+    private void HandleValidSubmit() {
+        Console.WriteLine("Register success");
+        Console.WriteLine($"Username: {userModel.UserName}");
+    }
+}
