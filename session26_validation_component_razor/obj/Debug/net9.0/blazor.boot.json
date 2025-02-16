@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "session26_validation_component_razor",
   "resources": {
-    "hash": "sha256-y02teBFkfcFWnJZgbF6JbKipxRQzrJVDB7ULNW4BeiA=",
+    "hash": "sha256-JHOq/w5oYGImQH7/k+RRRyxYUHHYLpxAPvK/vThHaro=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "session26_validation_component_razor.03tc50rmv1.wasm": "session26_validation_component_razor.wasm",
-      "session26_validation_component_razor.7nc49z3nxr.pdb": "session26_validation_component_razor.pdb"
+      "session26_validation_component_razor.gmpn6s32m0.wasm": "session26_validation_component_razor.wasm",
+      "session26_validation_component_razor.dmg5qy490b.pdb": "session26_validation_component_razor.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -412,10 +412,10 @@
       "WindowsBase.ovqw333kan.wasm": "sha256-7LCr4nX9JSGuwzMr8Rk8TGvC6ApzQNxCDiMV/0I9JlI=",
       "mscorlib.l6md3pggqy.wasm": "sha256-jZgH0LixLeQKqaq33akQgDGhfE7vbXbHtvCId5HC0Yo=",
       "netstandard.lij9csiyuf.wasm": "sha256-DeeBl9s8G34N3IfYRQ+MoY807amodj8cvpuvUSNaWE4=",
-      "session26_validation_component_razor.03tc50rmv1.wasm": "sha256-PHMMly9iwDJzcsVUnADXc/GYzsG+xwQ6+0Faq55q2Og="
+      "session26_validation_component_razor.gmpn6s32m0.wasm": "sha256-eEcEtGvFCfA5NtG7iKH4GCLRFOTuipZh5iuTvc1vnOE="
     },
     "pdb": {
-      "session26_validation_component_razor.7nc49z3nxr.pdb": "sha256-Ax5Qpp5TpTR092TF0vLgR/GBcmoxDCZUkWTj2oWUqHA="
+      "session26_validation_component_razor.dmg5qy490b.pdb": "sha256-m3ov9j/J0jv60Pa8cUvfDHdWLZLPTOdOP/oQRTCga7o="
     }
   },
   "cacheBootResources": true,

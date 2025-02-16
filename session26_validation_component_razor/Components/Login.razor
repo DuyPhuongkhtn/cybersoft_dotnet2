@@ -1,0 +1,24 @@
+@* nhúng (inject) UserService (Denpendency injection) *@
+@inject UserService UserService
+
+@if(UserService.IsAuthenticated()) {
+    <p class="text-white">Xin chào @UserService.CurrentUser</p>
+    <button class="btn btn-danger" @onclick="Logout">Logout</button>
+} else {
+    <div class="container">
+        <input placeholder="Nhập tên của bạn" @bind="userName">
+        <button class="btn btn-success" @onclick="Signin">Login</button>
+    </div>
+}
+
+@code {
+    private string userName = "";
+    private void Signin() {
+        @* gửi userName lên store *@
+        UserService.Login(userName);
+    }
+
+    private void Logout() {
+        UserService.Logout();
+    }
+}

@@ -10,7 +10,7 @@
         @ChildContent
     </div>
     <button class="btn btn-secondary mt-3" @onclick="Showdetails">Xem chi tiết</button>
-    <button class="btn btn-primary mt-3">Thêm giỏ hàng</button>
+    <button class="btn btn-primary mt-3" @onclick="HandleAddToCart">Thêm giỏ hàng</button>
 </div>
 
 @if(isShowDetails) {
@@ -29,7 +29,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" @onclick="CloseModal">Đóng</button>
-                    <button class="btn btn-primary">🛒 Thêm vào giỏ</button>
+                    <button class="btn btn-primary" @onclick="HandleAddToCart">🛒 Thêm vào giỏ</button>
                 </div>
             </div>
         </div>
@@ -40,6 +40,9 @@
     [Parameter] public ProductModel Product { get; set; }
     [Parameter] public RenderFragment? ChildContent { get; set; }
 
+    @* define event callback để nhận event từ component cha *@
+    [Parameter] public EventCallback<ProductModel> OnAddToCart {get; set;}
+
     private bool isShowDetails = false;
     private void Showdetails() {
         isShowDetails = true;
@@ -47,5 +50,13 @@
 
     private void CloseModal() {
         isShowDetails = false;
+    }
+
+    private async Task HandleAddToCart() {
+        if(OnAddToCart.HasDelegate) {
+            await OnAddToCart.InvokeAsync(Product);
+        }
+
+        CloseModal();
     }
 }

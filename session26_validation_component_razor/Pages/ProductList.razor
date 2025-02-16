@@ -1,14 +1,63 @@
 @page "/products"
 @using session26_validation_component_razor.Components
 
-<h2 class="text-center">Danh sách sản phẩm</h2>
-@* <ProductItem Product="products[0]" /> *@
+<div class="container">
+    <div class="d-flex justify-content-between align-item-center my-4">
+        <h2 class="text-center">Danh sách sản phẩm</h2>
+        <button class="btn btn-secondary position-relative" data-bs-toggle="modal" data-bs-target="#cartModal">
+            <i class="fa fa-shopping-cart"></i>
+            @* thẻ span để hiển thị số lượng sản phẩm trên giỏ hàng *@
+            <span class="position-absolute bg-danger rounded-pill top-0 start-100 translate-middle badge">
+                @Cart.Sum(product => product.Quantity)
+            </span>
+        </button>
+    </div>
+</div>
+
+@* Popup giỏ hàng *@
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">🛒 Giỏ hàng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                @* truyền số lượng sản phẩm trong Cart ra UI *@
+                @if (Cart.Any())
+                {
+                    <ul class="list-group">
+                        @foreach (var item in Cart)
+                        {
+                            <li class="d-flex justify-content-between align-items-center list-group-item">
+                                <div>
+                                    <strong>@item.Name</strong>
+                                    <span>@item.Quantity</span>
+                                </div>
+                                <span class="text-danger fw-bold">@((Convert.ToDouble(item.Price)*item.Quantity))</span>
+                            </li>
+                        }
+                    </ul>
+                }
+                else {
+                    <p class="text-center text-muted">Giỏ hàng trống</p>
+                }
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-success">Thanh toán</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row">
-        @foreach(var product in products){
+        @foreach (var product in products)
+        {
             <div class="col-md-4 mb-4">
-                <ProductItem Product="product">
+                <ProductItem Product="product" OnAddToCart="HandleAddToCart">
                     <p class="text-danger text-center">Sản phẩm chất lượng cao</p>
                 </ProductItem>
             </div>
@@ -18,33 +67,58 @@
 
 @code {
     private List<ProductModel> products = new() {
-        new ProductModel{
-            Id = "1",
-            Name = "SH 2024",
-            Price = "60000000",
-            ImageUrl = "sh_mode2025.png",
-            Quantity = 10
-        },
-        new ProductModel{
-            Id = "2",
-            Name = "SH 2025",
-            Price = "65000000",
-            ImageUrl = "sh_mode2025.png",
-            Quantity = 11
-        },
-        new ProductModel{
-            Id = "3",
-            Name = "SH 2023",
-            Price = "60000000",
-            ImageUrl = "sh_mode2025.png",
-            Quantity = 9
-        },
-        new ProductModel{
-            Id = "4",
-            Name = "SH 2022",
-            Price = "60000000",
-            ImageUrl = "sh_mode2025.png",
-            Quantity = 9
-        },
-    };
+new ProductModel{
+Id = "1",
+Name = "SH 2024",
+Price = "60000000",
+ImageUrl = "sh_mode2025.png",
+Quantity = 10
+},
+new ProductModel{
+Id = "2",
+Name = "SH 2025",
+Price = "65000000",
+ImageUrl = "sh_mode2025.png",
+Quantity = 11
+},
+new ProductModel{
+Id = "3",
+Name = "SH 2023",
+Price = "60000000",
+ImageUrl = "sh_mode2025.png",
+Quantity = 9
+},
+new ProductModel{
+Id = "4",
+Name = "SH 2022",
+Price = "60000000",
+ImageUrl = "sh_mode2025.png",
+Quantity = 9
+},
+};
+
+    @* tạo object Carts để chứa danh sách sản phẩm trên giỏ hàng *@
+    private List<ProductModel> Cart = new();
+
+    @* hàm handle việc thêm sản phẩm vào giỏ hàng *@
+    @* gửi hàm này xuống cho component con để nhận dữ liệu *@
+    private void HandleAddToCart(ProductModel product)
+    {
+        var existingProduct = Cart.FirstOrDefault(p => p.Name == product.Name);
+
+        if (existingProduct != null)
+        {
+            existingProduct.Quantity++;
+        }
+        else
+        {
+            Cart.Add(new ProductModel
+            {
+                Name = product.Name,
+                Price = product.Price,
+                ImageUrl = product.ImageUrl,
+                Quantity = 1
+            });
+        }
+    }
 }

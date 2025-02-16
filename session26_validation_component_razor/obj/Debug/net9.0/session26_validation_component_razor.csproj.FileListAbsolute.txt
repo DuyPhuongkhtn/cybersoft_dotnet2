@@ -812,7 +812,6 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/blazor.build.boot-extension.json
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/blazor.boot.json
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/m1fg3v9rx4-8rbvw3on5j.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/rmqmkrpm7b-d1ol3iylc6.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/4brxo6k30z-bqjiyaj88i.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/zzcwfiki4c-c2jlpeoesf.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/d8i81aimni-erw9l3u2r3.gz
@@ -1075,10 +1074,11 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/refint/session26_validation_component_razor.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/session26_validation_component_razor.pdb
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/ref/session26_validation_component_razor.dll
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.7nc49z3nxr.pdb
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.03tc50rmv1.wasm
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.7nc49z3nxr.pdb.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.03tc50rmv1.wasm.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/ucdasuqyre-03tc50rmv1.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/db3q5cgxob-7nc49z3nxr.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/ut2z11wplu-r18ygx5ra6.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/rmqmkrpm7b-6olq5xa23n.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.dmg5qy490b.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.gmpn6s32m0.wasm
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.dmg5qy490b.pdb.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/bin/Debug/net9.0/wwwroot/_framework/session26_validation_component_razor.gmpn6s32m0.wasm.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/ucdasuqyre-gmpn6s32m0.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/db3q5cgxob-dmg5qy490b.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session26_validation_component_razor/obj/Debug/net9.0/compressed/ut2z11wplu-9cltof4j75.gz

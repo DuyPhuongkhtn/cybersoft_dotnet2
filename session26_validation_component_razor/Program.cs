@@ -8,4 +8,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+// đăng ký UserService
+builder.Services.AddScoped<UserService>();
+
 await builder.Build().RunAsync();
