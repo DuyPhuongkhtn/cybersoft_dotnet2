@@ -1,0 +1,87 @@
+@page "/products"
+@inject ProductService ProductService
+
+<h1 class="text-primary">Product List</h1>
+
+@* thanh search *@
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search product....">
+    <button class="btn btn-primary">Search</button>
+</div>
+
+@if(isLoading) {
+    <div class="text-center">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p>Loading.......</p>
+    </div>
+}
+else if (products.Count == 0) {
+    <p>No product found...</p>
+}
+else {
+    <div class="row row-cols-md-3">
+        @foreach(var product in displayProducts) {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img class="card-img-top" src="@product.Image" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">@product.Name</h4>
+                        <p class="card-text text-success fw-bold">$@product.Price</p>
+                        <p class="card-text">@product.ShortDescription</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@* phân trang *@
+<div class="mt-4 d-flex justify-content-center">
+    <button class="btn btn-primary">Prev</button>
+    <span>Page @currentPage/@totalPages</span>
+    <button class="btn btn-primary" @onclick="NextPage">Next</button>
+</div>
+
+
+@code {
+    private List<Product> products = new List<Product>();
+
+    @* biến list product để show list sản phẩm dựa vào page *@
+    private List<Product> displayProducts = new List<Product>();
+    
+    private bool isLoading = true; // biến kiểm tra xem có đang load dữ liệu hay không
+    private string searchQuery = ""; // biến lưu trữ giá trị của ô search
+    private int currentPage = 1; // biến lưu trữ trang hiện tại
+    private int pageSize = 6; // biến lưu trữ số lượng sản phẩm trên 1 trang
+
+    private int totalPages => (int)Math.Ceiling((double)products.Count/pageSize);
+
+    @* dùng hàm OnInitializedAsync để call API *@
+    protected override async Task OnInitializedAsync() {
+        await LoadData();
+    }
+
+    private void UpdateDisplayProducts() {
+        displayProducts = products.Skip((currentPage - 1)*pageSize).Take(pageSize).ToList();
+        StateHasChanged();
+    }
+
+    private async Task LoadData() {
+        try{
+            products = await ProductService.GetProductsAsync();
+            isLoading = false;
+            UpdateDisplayProducts(); // cập nhật lại list product hiển thị
+        } catch (Exception ex) {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private void NextPage() {
+        if(currentPage < totalPages) {
+            currentPage++;
+            UpdateDisplayProducts();
+        }
+    }
+}

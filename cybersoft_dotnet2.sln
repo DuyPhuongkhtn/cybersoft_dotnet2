@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session25", "session25\sess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session26_validation_component_razor", "session26_validation_component_razor\session26_validation_component_razor.csproj", "{922A6115-0672-4A32-B3A6-D95863033F53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session28_life_cycle", "session28_life_cycle\session28_life_cycle.csproj", "{7527F30D-896F-4208-AF75-E01661A95AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{922A6115-0672-4A32-B3A6-D95863033F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{922A6115-0672-4A32-B3A6-D95863033F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{922A6115-0672-4A32-B3A6-D95863033F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7527F30D-896F-4208-AF75-E01661A95AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7527F30D-896F-4208-AF75-E01661A95AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7527F30D-896F-4208-AF75-E01661A95AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7527F30D-896F-4208-AF75-E01661A95AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
