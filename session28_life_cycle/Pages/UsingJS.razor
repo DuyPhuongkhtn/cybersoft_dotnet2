@@ -1,0 +1,22 @@
+@page "/demo-js"
+@inject IJSRuntime JSRuntime
+
+<h1>demo inject javascript in Blazor</h1>
+
+<button class="btn btn-primary" @onclick="ShowAlert">Show Alert</button>
+<button class="btn btn-success" @onclick="CustomFunction">Custom function</button>
+<button class="btn btn-info" @onclick="CustomParamFunction">Custom param function</button>
+
+@code {
+    private async Task ShowAlert() {
+        await JSRuntime.InvokeVoidAsync("alert", "Hello from Blazor");
+    }
+
+    private async Task CustomFunction() {
+        await JSRuntime.InvokeVoidAsync("customFunction");
+    }
+
+    private async Task CustomParamFunction() {
+        await JSRuntime.InvokeVoidAsync("customParamFunction", "Hello custom function with params", "from Blazor");
+    }
+}

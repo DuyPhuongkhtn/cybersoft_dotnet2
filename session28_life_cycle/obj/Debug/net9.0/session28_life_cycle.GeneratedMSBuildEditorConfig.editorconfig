@@ -28,16 +28,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Components/ProductItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Qcm9kdWN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/DemoJS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVtb0pTLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/ProductList.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExpc3QucmF6b3I=
+[/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/UsingJS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNpbmdKUy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/Weather.razor]
@@ -55,3 +63,7 @@ build_metadata.AdditionalFiles.CssScope = b-0c5cypx6tz
 [/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-227ba8lc4u
+
+[/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session28_life_cycle/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-m5sbwqsint

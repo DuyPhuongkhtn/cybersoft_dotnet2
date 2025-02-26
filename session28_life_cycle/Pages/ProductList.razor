@@ -5,8 +5,8 @@
 
 @* thanh search *@
 <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Search product....">
-    <button class="btn btn-primary">Search</button>
+    <input type="text" class="form-control" placeholder="Search product...." @onkeydown="HandleEnterKey" @bind="searchQuery">
+    <button class="btn btn-primary" @onclick="PerformSearch">Search</button>
 </div>
 
 @if(isLoading) {
@@ -39,9 +39,9 @@ else {
 
 @* phân trang *@
 <div class="mt-4 d-flex justify-content-center">
-    <button class="btn btn-primary">Prev</button>
+    <button class="btn btn-primary" @onclick="PrevPage" disabled="@(!CanGoPrev)">Prev</button>
     <span>Page @currentPage/@totalPages</span>
-    <button class="btn btn-primary" @onclick="NextPage">Next</button>
+    <button class="btn btn-primary" @onclick="NextPage" disabled="@(!CanGoNext)">Next</button>
 </div>
 
 
@@ -50,13 +50,22 @@ else {
 
     @* biến list product để show list sản phẩm dựa vào page *@
     private List<Product> displayProducts = new List<Product>();
-    
+
+    @* danh sách sản phẩm đã lọc theo từ khóa tìm kiếm *@
+    private List<Product> filteredProducts = new List<Product>();
+
     private bool isLoading = true; // biến kiểm tra xem có đang load dữ liệu hay không
     private string searchQuery = ""; // biến lưu trữ giá trị của ô search
     private int currentPage = 1; // biến lưu trữ trang hiện tại
     private int pageSize = 6; // biến lưu trữ số lượng sản phẩm trên 1 trang
 
-    private int totalPages => (int)Math.Ceiling((double)products.Count/pageSize);
+    private int totalPages => (int)Math.Ceiling((double)filteredProducts.Count/pageSize);
+
+    @* kiểm tra xem có thể quay lại trang trước hay không *@
+    private bool CanGoPrev => currentPage > 1;
+
+    @* kiểm tra xem có thể qua trang kế tiếp hay không *@
+    private bool CanGoNext => currentPage < totalPages;
 
     @* dùng hàm OnInitializedAsync để call API *@
     protected override async Task OnInitializedAsync() {
@@ -64,23 +73,44 @@ else {
     }
 
     private void UpdateDisplayProducts() {
-        displayProducts = products.Skip((currentPage - 1)*pageSize).Take(pageSize).ToList();
-        StateHasChanged();
+        displayProducts = filteredProducts.Skip((currentPage - 1)*pageSize).Take(pageSize).ToList();
+    }
+
+    private void PerformSearch() {
+        currentPage = 1;
+        filteredProducts = string.IsNullOrWhiteSpace(searchQuery)
+            ? products
+            : products.Where(p => p.Name.Contains(searchQuery, StringComparison.OrdinalIgnoreCase)).ToList();
+
+        UpdateDisplayProducts();
+    }
+
+    private void HandleEnterKey(KeyboardEventArgs e) {
+        if(e.Key == "Enter") {
+            PerformSearch();
+        }
     }
 
     private async Task LoadData() {
         try{
             products = await ProductService.GetProductsAsync();
             isLoading = false;
-            UpdateDisplayProducts(); // cập nhật lại list product hiển thị
+            PerformSearch();
         } catch (Exception ex) {
             Console.WriteLine(ex.Message);
         }
     }
 
     private void NextPage() {
-        if(currentPage < totalPages) {
+        if(CanGoNext) {
             currentPage++;
+            UpdateDisplayProducts();
+        }
+    }
+
+    private void PrevPage() {
+        if(CanGoPrev) {
+            currentPage--;
             UpdateDisplayProducts();
         }
     }

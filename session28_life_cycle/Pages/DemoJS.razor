@@ -1,0 +1,33 @@
+@page "/demo-js-blazor"
+
+@* nhúng IJSRuntime *@
+@inject IJSRuntime JSRuntime
+
+<div>
+    <button @onclick="HandleJS">
+        Test Javascript
+    </button>
+    <button @onclick="showMessage">
+        demo function javascript
+    </button>
+    <button @onclick="sum">
+        Tổng 2 số
+    </button>
+</div>
+
+@code {
+    private async Task HandleJS() {
+        await JSRuntime.InvokeVoidAsync("console.log", "Hello from Blazor");
+    }
+
+    private async Task showMessage() {
+        await JSRuntime.InvokeVoidAsync("showMessage", "Hello from Blazor");
+    }
+
+    private async Task sum() {
+        var a = 5;
+        var b = 10;
+        var result = await JSRuntime.InvokeAsync<int>("sum", a, b);
+        Console.WriteLine(result);
+    }
+}
