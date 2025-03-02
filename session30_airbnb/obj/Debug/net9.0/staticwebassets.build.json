@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WhOrMvhZAVTCDmuerQ/Id8OTkgazVvmdrwCe7AHknhw=",
+  "Hash": "YMkL55hroSuqO+zluZNH0XgE6h2/mWjRAmubakJLVUw=",
   "Source": "session30_airbnb",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "82bz0n4evb",
-      "Integrity": "wJ487HgFmw5tAoSaPwHNmDL1Bk0Z9xcjR8ifXEokhys=",
+      "Fingerprint": "5k6yct0xv5",
+      "Integrity": "S0rWMW7Dzo6VwExdX+mhmlzi8QO22XdeTgVDE4+fZZM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "16fwkn4gkp",
-      "Integrity": "N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ=",
+      "Fingerprint": "g7laucr3lx",
+      "Integrity": "JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/session30_airbnb.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "xnj2h553vd",
-      "Integrity": "DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4=",
+      "Fingerprint": "om2slzvika",
+      "Integrity": "UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/webcil/session30_airbnb.wasm"
@@ -6317,7 +6317,7 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/d7l1r44spp-82bz0n4evb.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/d7l1r44spp-5k6yct0xv5.gz",
       "SourceId": "session30_airbnb",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/",
@@ -6331,8 +6331,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6lxxf9rqg8",
-      "Integrity": "tnSO3gOLv/CPit/OXdqIhUJudo83rUmTYiWNFd0xnuw=",
+      "Fingerprint": "fc2fyldd1u",
+      "Integrity": "YWBoTRdyhrj8fwf5T2hhHzqpUEeGHYUz49LIxAZsGOQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -7913,12 +7913,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-hhmnue8azw.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-exo320l913.gz",
       "SourceId": "session30_airbnb",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "js/site#[.{fingerprint=hhmnue8azw}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=exo320l913}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7927,8 +7927,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/wwwroot/js/site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bwxskrhyc2",
-      "Integrity": "mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM=",
+      "Fingerprint": "209pfmtscn",
+      "Integrity": "0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/wwwroot/js/site.js"
@@ -8648,12 +8648,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-xnj2h553vd.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-om2slzvika.gz",
       "SourceId": "session30_airbnb",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/session30_airbnb#[.{fingerprint=xnj2h553vd}]!.wasm.gz",
+      "RelativePath": "_framework/session30_airbnb#[.{fingerprint=om2slzvika}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8662,8 +8662,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5xz6ldlsxr",
-      "Integrity": "WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc=",
+      "Fingerprint": "rw0ftg6xo6",
+      "Integrity": "W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.wasm"
@@ -9488,12 +9488,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/System.Resources.ResourceManager.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-16fwkn4gkp.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-g7laucr3lx.gz",
       "SourceId": "session30_airbnb",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/session30_airbnb#[.{fingerprint=16fwkn4gkp}]!.pdb.gz",
+      "RelativePath": "_framework/session30_airbnb#[.{fingerprint=g7laucr3lx}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9502,8 +9502,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "d3avgktnbr",
-      "Integrity": "J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE=",
+      "Fingerprint": "e2ng6pwwk3",
+      "Integrity": "xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.pdb"
@@ -10069,8 +10069,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hhmnue8azw",
-      "Integrity": "a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380=",
+      "Fingerprint": "exo320l913",
+      "Integrity": "Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
@@ -11041,11 +11041,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJ487HgFmw5tAoSaPwHNmDL1Bk0Z9xcjR8ifXEokhys=\""
+          "Value": "\"S0rWMW7Dzo6VwExdX+mhmlzi8QO22XdeTgVDE4+fZZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11055,18 +11055,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJ487HgFmw5tAoSaPwHNmDL1Bk0Z9xcjR8ifXEokhys="
+          "Value": "sha256-S0rWMW7Dzo6VwExdX+mhmlzi8QO22XdeTgVDE4+fZZM="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/d7l1r44spp-82bz0n4evb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/d7l1r44spp-5k6yct0xv5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081400081"
+          "Quality": "0.000081386832"
         }
       ],
       "ResponseHeaders": [
@@ -11076,15 +11076,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12284"
+          "Value": "12286"
         },
         {
           "Name": "ETag",
-          "Value": "\"tnSO3gOLv/CPit/OXdqIhUJudo83rUmTYiWNFd0xnuw=\""
+          "Value": "\"YWBoTRdyhrj8fwf5T2hhHzqpUEeGHYUz49LIxAZsGOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:57:35 GMT"
+          "Value": "Wed, 26 Feb 2025 12:59:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11104,19 +11104,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wJ487HgFmw5tAoSaPwHNmDL1Bk0Z9xcjR8ifXEokhys=\""
+          "Value": "W/\"S0rWMW7Dzo6VwExdX+mhmlzi8QO22XdeTgVDE4+fZZM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJ487HgFmw5tAoSaPwHNmDL1Bk0Z9xcjR8ifXEokhys="
+          "Value": "sha256-S0rWMW7Dzo6VwExdX+mhmlzi8QO22XdeTgVDE4+fZZM="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/d7l1r44spp-82bz0n4evb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/d7l1r44spp-5k6yct0xv5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11125,7 +11125,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12284"
+          "Value": "12286"
         },
         {
           "Name": "Content-Type",
@@ -11133,11 +11133,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tnSO3gOLv/CPit/OXdqIhUJudo83rUmTYiWNFd0xnuw=\""
+          "Value": "\"YWBoTRdyhrj8fwf5T2hhHzqpUEeGHYUz49LIxAZsGOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:57:35 GMT"
+          "Value": "Wed, 26 Feb 2025 12:59:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11155,7 +11155,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tnSO3gOLv/CPit/OXdqIhUJudo83rUmTYiWNFd0xnuw="
+          "Value": "sha256-YWBoTRdyhrj8fwf5T2hhHzqpUEeGHYUz49LIxAZsGOQ="
         }
       ]
     },
@@ -22621,7 +22621,7 @@
       ]
     },
     {
-      "Route": "_framework/session30_airbnb.16fwkn4gkp.pdb",
+      "Route": "_framework/session30_airbnb.g7laucr3lx.pdb",
       "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22631,7 +22631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32616"
+          "Value": "34620"
         },
         {
           "Name": "Content-Type",
@@ -22639,11 +22639,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ=\""
+          "Value": "\"JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:02 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22653,7 +22653,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "16fwkn4gkp"
+          "Value": "g7laucr3lx"
         },
         {
           "Name": "label",
@@ -22661,18 +22661,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ="
+          "Value": "sha256-JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE="
         }
       ]
     },
     {
-      "Route": "_framework/session30_airbnb.16fwkn4gkp.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-16fwkn4gkp.gz",
+      "Route": "_framework/session30_airbnb.g7laucr3lx.pdb",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-g7laucr3lx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000040647102"
+          "Quality": "0.000037897450"
         }
       ],
       "ResponseHeaders": [
@@ -22682,15 +22682,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24601"
+          "Value": "26386"
         },
         {
           "Name": "ETag",
-          "Value": "\"J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE=\""
+          "Value": "\"xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22710,13 +22710,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ=\""
+          "Value": "W/\"JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "16fwkn4gkp"
+          "Value": "g7laucr3lx"
         },
         {
           "Name": "label",
@@ -22724,13 +22724,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ="
+          "Value": "sha256-JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE="
         }
       ]
     },
     {
-      "Route": "_framework/session30_airbnb.16fwkn4gkp.pdb.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-16fwkn4gkp.gz",
+      "Route": "_framework/session30_airbnb.g7laucr3lx.pdb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-g7laucr3lx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22739,7 +22739,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24601"
+          "Value": "26386"
         },
         {
           "Name": "Content-Type",
@@ -22747,11 +22747,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE=\""
+          "Value": "\"xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22769,7 +22769,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "16fwkn4gkp"
+          "Value": "g7laucr3lx"
         },
         {
           "Name": "label",
@@ -22777,7 +22777,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE="
+          "Value": "sha256-xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session30_airbnb.om2slzvika.wasm",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 12:58:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2slzvika"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session30_airbnb.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session30_airbnb.om2slzvika.wasm",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-om2slzvika.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000063091483"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15849"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2slzvika"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session30_airbnb.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session30_airbnb.om2slzvika.wasm.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-om2slzvika.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "om2slzvika"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session30_airbnb.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY="
         }
       ]
     },
@@ -22792,7 +22953,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32616"
+          "Value": "34620"
         },
         {
           "Name": "Content-Type",
@@ -22800,11 +22961,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ=\""
+          "Value": "\"JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:02 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22814,18 +22975,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ="
+          "Value": "sha256-JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE="
         }
       ]
     },
     {
       "Route": "_framework/session30_airbnb.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-16fwkn4gkp.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-g7laucr3lx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000040647102"
+          "Quality": "0.000037897450"
         }
       ],
       "ResponseHeaders": [
@@ -22835,15 +22996,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24601"
+          "Value": "26386"
         },
         {
           "Name": "ETag",
-          "Value": "\"J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE=\""
+          "Value": "\"xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22863,19 +23024,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ=\""
+          "Value": "W/\"JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N1srznd0O2jXLQAd74jzRrn3JzQTzHtILTQkFZXOYdQ="
+          "Value": "sha256-JHg98YaEpJ7Bd8SJjceTGKd5Jl2+qPeN+kVSPbcQEkE="
         }
       ]
     },
     {
       "Route": "_framework/session30_airbnb.pdb.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-16fwkn4gkp.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/y2kp4mslyp-g7laucr3lx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22884,7 +23045,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24601"
+          "Value": "26386"
         },
         {
           "Name": "Content-Type",
@@ -22892,11 +23053,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE=\""
+          "Value": "\"xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22914,7 +23075,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J0u3629veMW0alUhoejdn8ef/F43qN17+Oua9DYcxaE="
+          "Value": "sha256-xqJpG6WQHPp4+fN0Pr1R3IRkCJ2q4HfhAajCglTqrB0="
         }
       ]
     },
@@ -22929,7 +23090,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34069"
+          "Value": "41237"
         },
         {
           "Name": "Content-Type",
@@ -22937,11 +23098,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4=\""
+          "Value": "\"UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:02 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22951,18 +23112,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4="
+          "Value": "sha256-UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk="
         }
       ]
     },
     {
       "Route": "_framework/session30_airbnb.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-xnj2h553vd.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-om2slzvika.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073789847"
+          "Quality": "0.000063091483"
         }
       ],
       "ResponseHeaders": [
@@ -22972,15 +23133,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13551"
+          "Value": "15849"
         },
         {
           "Name": "ETag",
-          "Value": "\"WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc=\""
+          "Value": "\"W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23000,19 +23161,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4=\""
+          "Value": "W/\"UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4="
+          "Value": "sha256-UA2CGwQDqMlAzptD8w+jCAxQdryj6zCgar57965ohMk="
         }
       ]
     },
     {
       "Route": "_framework/session30_airbnb.wasm.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-xnj2h553vd.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-om2slzvika.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23021,7 +23182,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13551"
+          "Value": "15849"
         },
         {
           "Name": "Content-Type",
@@ -23029,11 +23190,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc=\""
+          "Value": "\"W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
+          "Value": "Wed, 26 Feb 2025 12:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23051,168 +23212,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session30_airbnb.xnj2h553vd.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/bin/Debug/net9.0/wwwroot/_framework/session30_airbnb.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34069"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xnj2h553vd"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session30_airbnb.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session30_airbnb.xnj2h553vd.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-xnj2h553vd.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000073789847"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13551"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xnj2h553vd"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session30_airbnb.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DcVTzUl72IwbmJ15zCs/rYIOTBFvCPyFRcwB7yUfQz4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session30_airbnb.xnj2h553vd.wasm.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/svsnedplng-xnj2h553vd.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13551"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:58:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xnj2h553vd"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session30_airbnb.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WdQBAroukawHioGWjuqd5Pis2P2xGXVU9dfnXhsytpc="
+          "Value": "sha256-W8+8Dd7WFf1dEyHeT0322bnBktg8V54Cs/GI9XRN8hY="
         }
       ]
     },
@@ -73535,13 +73535,13 @@
       ]
     },
     {
-      "Route": "js/site.hhmnue8azw.js",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-hhmnue8azw.gz",
+      "Route": "js/site.exo320l913.js",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-exo320l913.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005586592179"
+          "Quality": "0.004016064257"
         }
       ],
       "ResponseHeaders": [
@@ -73551,15 +73551,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "178"
+          "Value": "248"
         },
         {
           "Name": "ETag",
-          "Value": "\"mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM=\""
+          "Value": "\"0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:49:55 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73579,13 +73579,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380=\""
+          "Value": "W/\"Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hhmnue8azw"
+          "Value": "exo320l913"
         },
         {
           "Name": "label",
@@ -73593,12 +73593,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380="
+          "Value": "sha256-Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U="
         }
       ]
     },
     {
-      "Route": "js/site.hhmnue8azw.js",
+      "Route": "js/site.exo320l913.js",
       "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73608,7 +73608,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "250"
+          "Value": "448"
         },
         {
           "Name": "Content-Type",
@@ -73616,11 +73616,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380=\""
+          "Value": "\"Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:49:55 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73630,7 +73630,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hhmnue8azw"
+          "Value": "exo320l913"
         },
         {
           "Name": "label",
@@ -73638,13 +73638,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380="
+          "Value": "sha256-Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U="
         }
       ]
     },
     {
-      "Route": "js/site.hhmnue8azw.js.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-hhmnue8azw.gz",
+      "Route": "js/site.exo320l913.js.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-exo320l913.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73653,7 +73653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "178"
+          "Value": "248"
         },
         {
           "Name": "Content-Type",
@@ -73661,11 +73661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM=\""
+          "Value": "\"0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:49:55 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73683,7 +73683,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hhmnue8azw"
+          "Value": "exo320l913"
         },
         {
           "Name": "label",
@@ -73691,18 +73691,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM="
+          "Value": "sha256-0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-hhmnue8azw.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-exo320l913.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005586592179"
+          "Quality": "0.004016064257"
         }
       ],
       "ResponseHeaders": [
@@ -73712,15 +73712,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "178"
+          "Value": "248"
         },
         {
           "Name": "ETag",
-          "Value": "\"mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM=\""
+          "Value": "\"0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:49:55 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73740,13 +73740,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380=\""
+          "Value": "W/\"Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380="
+          "Value": "sha256-Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U="
         }
       ]
     },
@@ -73761,7 +73761,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "250"
+          "Value": "448"
         },
         {
           "Name": "Content-Type",
@@ -73769,11 +73769,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380=\""
+          "Value": "\"Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:49:55 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73783,13 +73783,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a1gPnacObL2HfaJXx65hTJ0tmANfEqPYntXBNdOX380="
+          "Value": "sha256-Do1wdP1KgYuYb0/otc0vCaZtSUD+J0dHkOxX9WTgG7U="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-hhmnue8azw.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session30_airbnb/obj/Debug/net9.0/compressed/nf8gg00eaa-exo320l913.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73798,7 +73798,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "178"
+          "Value": "248"
         },
         {
           "Name": "Content-Type",
@@ -73806,11 +73806,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM=\""
+          "Value": "\"0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 04:49:55 GMT"
+          "Value": "Wed, 26 Feb 2025 13:00:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73828,7 +73828,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mwpt+4vG37FyTdVJ1NswfhMHnZ7wiSe998vWg0o0zdM="
+          "Value": "sha256-0lCIDvnlV2xltWrWK5YDHkqWoGM9PKoZERvYBSmxw3Q="
         }
       ]
     },

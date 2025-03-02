@@ -1,0 +1,61 @@
+@page "/chat"
+@rendermode InteractiveWebAssembly
+
+<PageTitle>Chat</PageTitle>
+
+@* Import file CSS *@
+@* <link rel="stylesheet" href="css/chat.css" /> *@
+
+<div class="chat-container">
+    <div class="chat-header">Chat</div>
+    <div class="chat-box">
+        <ul class="messages-list">
+            @foreach (var msg in messages)
+            {
+                var parts = msg.Split(":", 2);
+                var sender = parts[0];
+                var text = parts.Length > 1 ? parts[1] : "";
+                var isSent = sender == userInput;
+                <li class="message @(isSent ? "sent" : "received")">
+                    <div class="message-wrapper">
+                        <div class="message-sender">@sender</div>
+                        <div class="message-content">@text</div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="chat-input">
+        <input @bind="userInput" placeholder="Your name" class="input-user" />
+        <input @bind="messageInput" placeholder="Aa" class="input-message" />
+        <button @onclick="Send" class="btn-send">➤</button>
+    </div>
+</div>
+
+@code {
+    private List<string> messages = new();
+    private string? userInput = "Alice"; // Giả lập user hiện tại
+    private string? messageInput;
+
+    protected override void OnInitialized()
+    {
+        // Mock messages
+        messages = new()
+        {
+            "Alice: Xin chào!",
+            "Bob: Chào bạn, hôm nay thế nào?",
+            "Alice: Mọi thứ vẫn ổn, cảm ơn!",
+            "Bob: Tối nay rảnh không?",
+            "Alice: Có chứ, gặp nhau nhé!"
+        };
+    }
+
+    private void Send()
+    {
+        if (!string.IsNullOrWhiteSpace(userInput) && !string.IsNullOrWhiteSpace(messageInput))
+        {
+            messages.Add($"{userInput}: {messageInput}");
+            messageInput = string.Empty;
+        }
+    }
+}

@@ -14,15 +14,81 @@
             <div class="row">
                 <div class="col-md-6">
                     <label for="cleaniness" class="form-label">cleaniness</label>
-                    <input type="range" class="form-range" min="0" max="10" step="0.5">
+                    <input
+                        type="range"
+                        class="form-range"
+                        min="0"
+                        max="10"
+                        step="0.5"
+                        @bind="feedbackModel.Cleniness"
+                    >
                 </div>
 
                 <div class="col-md-6">
-
+                    <label for="staff" class="form-label">Staff</label>
+                    <input
+                        type="range"
+                        class="form-range"
+                        min="0"
+                        max="10"
+                        step="0.5"
+                        @bind="feedbackModel.Staff"
+                    >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="comfort" class="form-label">Comfort</label>
+                    <input
+                        type="range"
+                        class="form-range"
+                        min="0"
+                        max="10"
+                        step="0.5"
+                        @bind="feedbackModel.Comfort"
+                    >
                 </div>
 
-                <button type="submit" class="btn btn-primary">feedback</button>
+                <div class="col-md-6">
+                    <label for="value" class="form-label">Value</label>
+                    <input
+                        type="range"
+                        class="form-range"
+                        min="0"
+                        max="10"
+                        step="0.5"
+                        @bind="feedbackModel.Value"
+                    >
+                </div>
             </div>
+            <div>
+                <h4>Guest information</h4>
+                <div class="row">
+                    <div class="cold-md-6">
+                        <label for="firtName" class="form-label">First name</label>
+                        <InputText class="form-control" id="firstName" @bind-Value="feedbackModel.FirstName"/>
+                        <ValidationMessage For="@(() => feedbackModel.FirstName)" />
+                    </div>
+                    <div class="cold-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <InputText class="form-control" id="lastName" @bind-Value="feedbackModel.LastName"/>
+                        <ValidationMessage For="@(() => feedbackModel.LastName)" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cold-md-6">
+                        <label for="userName" class="form-label">User name</label>
+                        <InputText class="form-control" id="userName" @bind-Value="feedbackModel.Username"/>
+                        <ValidationMessage For="@(() => feedbackModel.Username)" />
+                    </div>
+                    <div class="cold-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <InputText class="form-control" id="email" @bind-Value="feedbackModel.Email"/>
+                        <ValidationMessage For="@(() => feedbackModel.Email)" />
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">feedback</button>
         </EditForm>
     </div>
 </div>
@@ -33,6 +99,9 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="feedbackModalLabel">Feedback Submitted</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div>
+                <p id="user-name"></p>
             </div>
             <div class="modal-body">
                 Thank you! Your feedback has been submitted successfully.
@@ -50,6 +119,6 @@
     private async Task HandleValidSumbit() {
         @* hiển thị  modal thông báo send feedback thành công *@
         @* define function showFeedbackModal *@
-        await JSRuntime.InvokeVoidAsync("showFeedbackModal");
+        await JSRuntime.InvokeVoidAsync("showFeedbackModal",feedbackModel);
     }
 }
