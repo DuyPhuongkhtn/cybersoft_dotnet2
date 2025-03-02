@@ -36,10 +36,15 @@ app.UseHttpsRedirection();
 
 app.UseAntiforgery();
 
+// hydration: tạo ra một phiên bản tĩnh của trang web
+// để tăng hiệu suất
+// ban dầu sẽ không có dữ liệu, sau đó sẽ được cập nhật
+
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(session31_signalR.Client._Imports).Assembly);
+
 // cấu hình route cho SignalR
 app.MapHub<ChatHub>("/chathub");
 app.Run();
