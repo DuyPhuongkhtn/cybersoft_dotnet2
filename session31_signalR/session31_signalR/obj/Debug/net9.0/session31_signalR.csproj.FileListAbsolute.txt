@@ -81,7 +81,6 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/compressed/l7c54dgrx3-h1s4sie4z3.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/compressed/ztolfehhzj-63fj8s7r0e.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/compressed/4osgqyh8t1-0j3bgjxly4.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/compressed/sj0indu5lk-inkzvyc9q7.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/compressed/7439wj717d-egfunc4sja.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/staticwebassets.build.json
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/staticwebassets.development.json
@@ -114,3 +113,4 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/bin/Debug/net9.0/System.Net.ServerSentEvents.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/bin/Debug/net9.0/System.Threading.Channels.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR/obj/Debug/net9.0/compressed/sj0indu5lk-gic4s0bze5.gz

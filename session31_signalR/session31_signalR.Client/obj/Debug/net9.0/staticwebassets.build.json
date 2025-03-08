@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "94DGDFbmYo6vTF0GcHZ8tR/Fx6A0BJ387CZaSJ1qwgQ=",
+  "Hash": "SMoARWktJLVkoV5y7piutRUYl77mkz8cH2spoGQC570=",
   "Source": "session31_signalR.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "o8mt67v6im",
-      "Integrity": "KDi05cb6HTmE2f26ZH7WLuUnfLJ/yIzB52HuhyLktMs=",
+      "Fingerprint": "bcmixjkdz4",
+      "Integrity": "m64e5fbh5Z0n8QxM6cvxI3404ggVswN8pLTtQ8yuMYc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "dsitb12lmq",
-      "Integrity": "owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I=",
+      "Fingerprint": "dgp9ke44xx",
+      "Integrity": "40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/session31_signalR.Client.pdb"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "twi20tqfgb",
-      "Integrity": "PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y=",
+      "Fingerprint": "da2rwpdk6p",
+      "Integrity": "VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/webcil/session31_signalR.Client.wasm"
@@ -4637,7 +4637,7 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/System.Net.Primitives.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/2fh6jsck5e-o8mt67v6im.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/2fh6jsck5e-bcmixjkdz4.gz",
       "SourceId": "session31_signalR.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/",
@@ -4651,8 +4651,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0614evp4ej",
-      "Integrity": "6BjfnU5VRLNJ7fvNQSOZVeMuFtTwDn8MEMMs5CGJad8=",
+      "Fingerprint": "tv4gx7q69v",
+      "Integrity": "udmV3Bs1OFcKLlzylEayZ9MEJl0lecK6kDllJ1Fg0W8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -5687,12 +5687,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.Encoding.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-q8keah6f0u.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-5fibr8gs3t.gz",
       "SourceId": "session31_signalR.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "session31_signalR.Client#[.{fingerprint=q8keah6f0u}]?.styles.css.gz",
+      "RelativePath": "session31_signalR.Client#[.{fingerprint=5fibr8gs3t}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -5701,8 +5701,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/bundle/session31_signalR.Client.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sokr1cumhs",
-      "Integrity": "hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=",
+      "Fingerprint": "dl1f3pwoa5",
+      "Integrity": "0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/bundle/session31_signalR.Client.styles.css"
@@ -6107,12 +6107,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-twi20tqfgb.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-da2rwpdk6p.gz",
       "SourceId": "session31_signalR.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/session31_signalR.Client#[.{fingerprint=twi20tqfgb}]!.wasm.gz",
+      "RelativePath": "_framework/session31_signalR.Client#[.{fingerprint=da2rwpdk6p}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6121,8 +6121,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vri24whu05",
-      "Integrity": "i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU=",
+      "Fingerprint": "2ucxwwn8cs",
+      "Integrity": "Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.wasm"
@@ -7241,12 +7241,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/System.Private.Xml.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-q8keah6f0u.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-5fibr8gs3t.gz",
       "SourceId": "session31_signalR.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "session31_signalR.Client#[.{fingerprint=q8keah6f0u}]!.bundle.scp.css.gz",
+      "RelativePath": "session31_signalR.Client#[.{fingerprint=5fibr8gs3t}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -7255,8 +7255,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/projectbundle/session31_signalR.Client.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sokr1cumhs",
-      "Integrity": "hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=",
+      "Fingerprint": "dl1f3pwoa5",
+      "Integrity": "0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/projectbundle/session31_signalR.Client.bundle.scp.css"
@@ -8774,12 +8774,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/System.Net.HttpListener.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dsitb12lmq.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dgp9ke44xx.gz",
       "SourceId": "session31_signalR.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/session31_signalR.Client#[.{fingerprint=dsitb12lmq}]!.pdb.gz",
+      "RelativePath": "_framework/session31_signalR.Client#[.{fingerprint=dgp9ke44xx}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8788,8 +8788,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2yd8foym9x",
-      "Integrity": "mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s=",
+      "Fingerprint": "o4lxw1vi9c",
+      "Integrity": "OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.pdb"
@@ -9061,8 +9061,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "q8keah6f0u",
-      "Integrity": "BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=",
+      "Fingerprint": "5fibr8gs3t",
+      "Integrity": "AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/bundle/session31_signalR.Client.styles.css"
@@ -9082,8 +9082,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "q8keah6f0u",
-      "Integrity": "BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=",
+      "Fingerprint": "5fibr8gs3t",
+      "Integrity": "AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/projectbundle/session31_signalR.Client.bundle.scp.css"
@@ -9151,11 +9151,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KDi05cb6HTmE2f26ZH7WLuUnfLJ/yIzB52HuhyLktMs=\""
+          "Value": "\"m64e5fbh5Z0n8QxM6cvxI3404ggVswN8pLTtQ8yuMYc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:18:39 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9165,18 +9165,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KDi05cb6HTmE2f26ZH7WLuUnfLJ/yIzB52HuhyLktMs="
+          "Value": "sha256-m64e5fbh5Z0n8QxM6cvxI3404ggVswN8pLTtQ8yuMYc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/2fh6jsck5e-o8mt67v6im.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/2fh6jsck5e-bcmixjkdz4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077597579"
+          "Quality": "0.000077603601"
         }
       ],
       "ResponseHeaders": [
@@ -9186,15 +9186,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12886"
+          "Value": "12885"
         },
         {
           "Name": "ETag",
-          "Value": "\"6BjfnU5VRLNJ7fvNQSOZVeMuFtTwDn8MEMMs5CGJad8=\""
+          "Value": "\"udmV3Bs1OFcKLlzylEayZ9MEJl0lecK6kDllJ1Fg0W8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9214,19 +9214,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KDi05cb6HTmE2f26ZH7WLuUnfLJ/yIzB52HuhyLktMs=\""
+          "Value": "W/\"m64e5fbh5Z0n8QxM6cvxI3404ggVswN8pLTtQ8yuMYc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KDi05cb6HTmE2f26ZH7WLuUnfLJ/yIzB52HuhyLktMs="
+          "Value": "sha256-m64e5fbh5Z0n8QxM6cvxI3404ggVswN8pLTtQ8yuMYc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/2fh6jsck5e-o8mt67v6im.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/2fh6jsck5e-bcmixjkdz4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9235,7 +9235,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12886"
+          "Value": "12885"
         },
         {
           "Name": "Content-Type",
@@ -9243,11 +9243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6BjfnU5VRLNJ7fvNQSOZVeMuFtTwDn8MEMMs5CGJad8=\""
+          "Value": "\"udmV3Bs1OFcKLlzylEayZ9MEJl0lecK6kDllJ1Fg0W8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9265,7 +9265,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6BjfnU5VRLNJ7fvNQSOZVeMuFtTwDn8MEMMs5CGJad8="
+          "Value": "sha256-udmV3Bs1OFcKLlzylEayZ9MEJl0lecK6kDllJ1Fg0W8="
         }
       ]
     },
@@ -23115,305 +23115,7 @@
       ]
     },
     {
-      "Route": "_framework/session31_signalR.Client.dsitb12lmq.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22072"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dsitb12lmq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session31_signalR.Client.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session31_signalR.Client.dsitb12lmq.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dsitb12lmq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000067920940"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14722"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dsitb12lmq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session31_signalR.Client.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session31_signalR.Client.dsitb12lmq.pdb.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dsitb12lmq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14722"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dsitb12lmq"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session31_signalR.Client.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session31_signalR.Client.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22072"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session31_signalR.Client.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dsitb12lmq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000067920940"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14722"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session31_signalR.Client.pdb.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dsitb12lmq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14722"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mmf887Ay66laXMo4UmdGE3VygEcUOLhC1D/zt8t5P5s="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session31_signalR.Client.twi20tqfgb.wasm",
+      "Route": "_framework/session31_signalR.Client.da2rwpdk6p.wasm",
       "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23423,7 +23125,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19221"
+          "Value": "33045"
         },
         {
           "Name": "Content-Type",
@@ -23431,11 +23133,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y=\""
+          "Value": "\"VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:09 GMT"
+          "Value": "Sat, 08 Mar 2025 13:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23445,7 +23147,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "twi20tqfgb"
+          "Value": "da2rwpdk6p"
         },
         {
           "Name": "label",
@@ -23453,18 +23155,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y="
+          "Value": "sha256-VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk="
         }
       ]
     },
     {
-      "Route": "_framework/session31_signalR.Client.twi20tqfgb.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-twi20tqfgb.gz",
+      "Route": "_framework/session31_signalR.Client.da2rwpdk6p.wasm",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-da2rwpdk6p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000121758188"
+          "Quality": "0.000079968013"
         }
       ],
       "ResponseHeaders": [
@@ -23474,15 +23176,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8212"
+          "Value": "12504"
         },
         {
           "Name": "ETag",
-          "Value": "\"i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU=\""
+          "Value": "\"Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23502,13 +23204,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y=\""
+          "Value": "W/\"VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "twi20tqfgb"
+          "Value": "da2rwpdk6p"
         },
         {
           "Name": "label",
@@ -23516,13 +23218,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y="
+          "Value": "sha256-VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk="
         }
       ]
     },
     {
-      "Route": "_framework/session31_signalR.Client.twi20tqfgb.wasm.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-twi20tqfgb.gz",
+      "Route": "_framework/session31_signalR.Client.da2rwpdk6p.wasm.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-da2rwpdk6p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23531,7 +23233,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8212"
+          "Value": "12504"
         },
         {
           "Name": "Content-Type",
@@ -23539,11 +23241,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU=\""
+          "Value": "\"Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23561,7 +23263,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "twi20tqfgb"
+          "Value": "da2rwpdk6p"
         },
         {
           "Name": "label",
@@ -23569,7 +23271,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU="
+          "Value": "sha256-Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session31_signalR.Client.dgp9ke44xx.pdb",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:02:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgp9ke44xx"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session31_signalR.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session31_signalR.Client.dgp9ke44xx.pdb",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dgp9ke44xx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000047639465"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20990"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgp9ke44xx"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session31_signalR.Client.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session31_signalR.Client.dgp9ke44xx.pdb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dgp9ke44xx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgp9ke44xx"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session31_signalR.Client.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session31_signalR.Client.pdb",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/bin/Debug/net9.0/wwwroot/_framework/session31_signalR.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:02:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session31_signalR.Client.pdb",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dgp9ke44xx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000047639465"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20990"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session31_signalR.Client.pdb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/yg1opqngbi-dgp9ke44xx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OB3T5JFmvW1o/0cj2QU899YR5yN8l0SGK7lzh28OdBM="
         }
       ]
     },
@@ -23584,7 +23584,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19221"
+          "Value": "33045"
         },
         {
           "Name": "Content-Type",
@@ -23592,11 +23592,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y=\""
+          "Value": "\"VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:09 GMT"
+          "Value": "Sat, 08 Mar 2025 13:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23606,18 +23606,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y="
+          "Value": "sha256-VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk="
         }
       ]
     },
     {
       "Route": "_framework/session31_signalR.Client.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-twi20tqfgb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-da2rwpdk6p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000121758188"
+          "Quality": "0.000079968013"
         }
       ],
       "ResponseHeaders": [
@@ -23627,15 +23627,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8212"
+          "Value": "12504"
         },
         {
           "Name": "ETag",
-          "Value": "\"i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU=\""
+          "Value": "\"Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23655,19 +23655,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y=\""
+          "Value": "W/\"VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y="
+          "Value": "sha256-VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk="
         }
       ]
     },
     {
       "Route": "_framework/session31_signalR.Client.wasm.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-twi20tqfgb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/e1lmonshdv-da2rwpdk6p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23676,7 +23676,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8212"
+          "Value": "12504"
         },
         {
           "Name": "Content-Type",
@@ -23684,11 +23684,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU=\""
+          "Value": "\"Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 04:17:10 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23706,7 +23706,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i1/cA0z6gfAf7a8j/5DJypXEen8RRFmaaAR4ThhYOBU="
+          "Value": "sha256-Os8oYbEgIE8GnRdsWKHi4TikHDWawo1cCCXaUibhSkg="
         }
       ]
     },
@@ -72881,13 +72881,13 @@
       ]
     },
     {
-      "Route": "session31_signalR.Client.bundle.scp.css",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-q8keah6f0u.gz",
+      "Route": "session31_signalR.Client.5fibr8gs3t.bundle.scp.css",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-5fibr8gs3t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001652892562"
+          "Quality": "0.000485908649"
         }
       ],
       "ResponseHeaders": [
@@ -72897,19 +72897,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "604"
+          "Value": "2057"
         },
         {
           "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -72925,18 +72925,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "W/\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5fibr8gs3t"
+        },
+        {
+          "Name": "label",
+          "Value": "session31_signalR.Client.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
         }
       ]
     },
     {
-      "Route": "session31_signalR.Client.bundle.scp.css",
+      "Route": "session31_signalR.Client.5fibr8gs3t.bundle.scp.css",
       "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/projectbundle/session31_signalR.Client.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72946,7 +72954,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1960"
+          "Value": "15315"
         },
         {
           "Name": "Content-Type",
@@ -72954,121 +72962,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
-        }
-      ]
-    },
-    {
-      "Route": "session31_signalR.Client.bundle.scp.css.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-q8keah6f0u.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "604"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU="
-        }
-      ]
-    },
-    {
-      "Route": "session31_signalR.Client.q8keah6f0u.bundle.scp.css",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-q8keah6f0u.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001652892562"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "604"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q8keah6f0u"
+          "Value": "5fibr8gs3t"
         },
         {
           "Name": "label",
@@ -73076,13 +72984,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
         }
       ]
     },
     {
-      "Route": "session31_signalR.Client.q8keah6f0u.bundle.scp.css",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/projectbundle/session31_signalR.Client.bundle.scp.css",
+      "Route": "session31_signalR.Client.5fibr8gs3t.bundle.scp.css.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-5fibr8gs3t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73091,7 +72999,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1960"
+          "Value": "2057"
         },
         {
           "Name": "Content-Type",
@@ -73099,56 +73007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q8keah6f0u"
-        },
-        {
-          "Name": "label",
-          "Value": "session31_signalR.Client.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
-        }
-      ]
-    },
-    {
-      "Route": "session31_signalR.Client.q8keah6f0u.bundle.scp.css.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-q8keah6f0u.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "604"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73166,7 +73029,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q8keah6f0u"
+          "Value": "5fibr8gs3t"
         },
         {
           "Name": "label",
@@ -73174,18 +73037,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU="
+          "Value": "sha256-0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM="
         }
       ]
     },
     {
-      "Route": "session31_signalR.Client.q8keah6f0u.styles.css",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-q8keah6f0u.gz",
+      "Route": "session31_signalR.Client.5fibr8gs3t.styles.css",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-5fibr8gs3t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001652892562"
+          "Quality": "0.000485908649"
         }
       ],
       "ResponseHeaders": [
@@ -73195,15 +73058,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "604"
+          "Value": "2057"
         },
         {
           "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73223,13 +73086,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "W/\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q8keah6f0u"
+          "Value": "5fibr8gs3t"
         },
         {
           "Name": "label",
@@ -73237,12 +73100,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
         }
       ]
     },
     {
-      "Route": "session31_signalR.Client.q8keah6f0u.styles.css",
+      "Route": "session31_signalR.Client.5fibr8gs3t.styles.css",
       "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/bundle/session31_signalR.Client.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73252,7 +73115,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1960"
+          "Value": "15315"
         },
         {
           "Name": "Content-Type",
@@ -73260,11 +73123,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73274,7 +73137,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q8keah6f0u"
+          "Value": "5fibr8gs3t"
         },
         {
           "Name": "label",
@@ -73282,13 +73145,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
         }
       ]
     },
     {
-      "Route": "session31_signalR.Client.q8keah6f0u.styles.css.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-q8keah6f0u.gz",
+      "Route": "session31_signalR.Client.5fibr8gs3t.styles.css.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-5fibr8gs3t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73297,7 +73160,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "604"
+          "Value": "2057"
         },
         {
           "Name": "Content-Type",
@@ -73305,11 +73168,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73327,7 +73190,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "q8keah6f0u"
+          "Value": "5fibr8gs3t"
         },
         {
           "Name": "label",
@@ -73335,18 +73198,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU="
+          "Value": "sha256-0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM="
         }
       ]
     },
     {
-      "Route": "session31_signalR.Client.styles.css",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-q8keah6f0u.gz",
+      "Route": "session31_signalR.Client.bundle.scp.css",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-5fibr8gs3t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001652892562"
+          "Quality": "0.000485908649"
         }
       ],
       "ResponseHeaders": [
@@ -73356,15 +73219,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "604"
+          "Value": "2057"
         },
         {
           "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73384,13 +73247,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "W/\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
+        }
+      ]
+    },
+    {
+      "Route": "session31_signalR.Client.bundle.scp.css",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/scopedcss/projectbundle/session31_signalR.Client.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
+        }
+      ]
+    },
+    {
+      "Route": "session31_signalR.Client.bundle.scp.css.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/n8tew9lwok-5fibr8gs3t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2057"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM="
+        }
+      ]
+    },
+    {
+      "Route": "session31_signalR.Client.styles.css",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-5fibr8gs3t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000485908649"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2057"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
         }
       ]
     },
@@ -73405,7 +73405,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1960"
+          "Value": "15315"
         },
         {
           "Name": "Content-Type",
@@ -73413,11 +73413,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM=\""
+          "Value": "\"AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73427,13 +73427,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BlQ4cYjySZvoWsNLNr5Z4pFCMTPwlw1nMIW3l59s+EM="
+          "Value": "sha256-AU34EWsWtAJo/tePMZMbuD5e+burSu/H9/vkuoYII74="
         }
       ]
     },
     {
       "Route": "session31_signalR.Client.styles.css.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-q8keah6f0u.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session31_signalR/session31_signalR.Client/obj/Debug/net9.0/compressed/b7wuptawcs-5fibr8gs3t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73442,7 +73442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "604"
+          "Value": "2057"
         },
         {
           "Name": "Content-Type",
@@ -73450,11 +73450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU=\""
+          "Value": "\"0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 13:59:38 GMT"
+          "Value": "Sat, 08 Mar 2025 13:03:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73472,7 +73472,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hK3U3ZfGKd6WTJgjqDgDbY/DVor1wu711aLTw335/aU="
+          "Value": "sha256-0ZwXluNogEdSB/A8IIiX7LF0uCrQMlHfa+YetK2UAtM="
         }
       ]
     }

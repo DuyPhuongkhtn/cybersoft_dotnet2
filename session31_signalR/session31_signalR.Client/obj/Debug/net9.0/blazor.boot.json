@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "session31_signalR.Client",
   "resources": {
-    "hash": "sha256-VSHitB8QAQTUSlvM+eAnHi/glwUJIXKaBs8YsbibdXk=",
+    "hash": "sha256-aP5rCf/S6FvCk4QcPl0dZS3tmrLfHggl5UfneBOF9J0=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -210,8 +210,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "session31_signalR.Client.twi20tqfgb.wasm": "session31_signalR.Client.wasm",
-      "session31_signalR.Client.dsitb12lmq.pdb": "session31_signalR.Client.pdb"
+      "session31_signalR.Client.da2rwpdk6p.wasm": "session31_signalR.Client.wasm",
+      "session31_signalR.Client.dgp9ke44xx.pdb": "session31_signalR.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -430,10 +430,10 @@
       "WindowsBase.ovqw333kan.wasm": "sha256-7LCr4nX9JSGuwzMr8Rk8TGvC6ApzQNxCDiMV/0I9JlI=",
       "mscorlib.l6md3pggqy.wasm": "sha256-jZgH0LixLeQKqaq33akQgDGhfE7vbXbHtvCId5HC0Yo=",
       "netstandard.lij9csiyuf.wasm": "sha256-DeeBl9s8G34N3IfYRQ+MoY807amodj8cvpuvUSNaWE4=",
-      "session31_signalR.Client.twi20tqfgb.wasm": "sha256-PcC/mQZSB0QWeDXntuFsoQTFPuZgYOXSaQKsVS8NT5Y="
+      "session31_signalR.Client.da2rwpdk6p.wasm": "sha256-VTj8nma5SOEMRgoRl09sG+2D18jCyfXOrA2RPoVnOEk="
     },
     "pdb": {
-      "session31_signalR.Client.dsitb12lmq.pdb": "sha256-owx/ljyue8fMqSXtvoP4wpJXVeD+g9LeKKG/v6COX2I="
+      "session31_signalR.Client.dgp9ke44xx.pdb": "sha256-40oZwcAasX3UI4xG/kQefaq9kpfpWBIpue4L05nyA4I="
     }
   },
   "cacheBootResources": true,
