@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9ecODY5JVK2eZP9VjZ57PEYFUgW1kDNxFD4jCmHvXIc=",
+  "Hash": "Fx0FfpiA4XabkqOl3TLPmbCeUUoGgIPxbaOiWUMwu6Y=",
   "Source": "session25",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "ghn7dyslqv",
-      "Integrity": "XJiM/zZzwhuKUN6DMGnJ5iB2G4OqIOSzGOLciYT7TNM=",
+      "Fingerprint": "iezf2qoar3",
+      "Integrity": "BrXNSDONeseG90717VyqPwBFhJrhhOp9xyl7VEKqhtw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "l2zhriky8c",
-      "Integrity": "M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA=",
+      "Fingerprint": "6alg90w8h4",
+      "Integrity": "QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/session25.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "1t8ny80uh9",
-      "Integrity": "q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo=",
+      "Fingerprint": "tpvs6avqsv",
+      "Integrity": "b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/webcil/session25.wasm"
@@ -4385,12 +4385,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-1t8ny80uh9.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-tpvs6avqsv.gz",
       "SourceId": "session25",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/session25#[.{fingerprint=1t8ny80uh9}]!.wasm.gz",
+      "RelativePath": "_framework/session25#[.{fingerprint=tpvs6avqsv}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4399,8 +4399,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dpw00itp86",
-      "Integrity": "b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M=",
+      "Fingerprint": "8f68zv5ugd",
+      "Integrity": "fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.wasm"
@@ -5309,7 +5309,7 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/System.Security.AccessControl.wasm"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-ghn7dyslqv.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-iezf2qoar3.gz",
       "SourceId": "session25",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/",
@@ -5323,8 +5323,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f7s70ofcub",
-      "Integrity": "i9qrxhIRFn4YKTlijAyNqpDD0mkbmknXcUFbN7MVdT4=",
+      "Fingerprint": "0bgbdxbw5a",
+      "Integrity": "tNfwWk6uX1rbpgxoh7LZB1tRzVYFb8Vz2H49m9P7MSM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -6023,12 +6023,12 @@
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-l2zhriky8c.gz",
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-6alg90w8h4.gz",
       "SourceId": "session25",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/session25#[.{fingerprint=l2zhriky8c}]!.pdb.gz",
+      "RelativePath": "_framework/session25#[.{fingerprint=6alg90w8h4}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6037,8 +6037,8 @@
       "RelatedAsset": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jwr3ja41fz",
-      "Integrity": "/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E=",
+      "Fingerprint": "15q0lgudiq",
+      "Integrity": "q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.pdb"
@@ -10705,7 +10705,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XJiM/zZzwhuKUN6DMGnJ5iB2G4OqIOSzGOLciYT7TNM=\""
+          "Value": "\"BrXNSDONeseG90717VyqPwBFhJrhhOp9xyl7VEKqhtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrXNSDONeseG90717VyqPwBFhJrhhOp9xyl7VEKqhtw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-iezf2qoar3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081439857"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12278"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tNfwWk6uX1rbpgxoh7LZB1tRzVYFb8Vz2H49m9P7MSM=\""
         },
         {
           "Name": "Last-Modified",
@@ -10714,45 +10753,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-XJiM/zZzwhuKUN6DMGnJ5iB2G4OqIOSzGOLciYT7TNM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-ghn7dyslqv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081446490"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12277"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"i9qrxhIRFn4YKTlijAyNqpDD0mkbmknXcUFbN7MVdT4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:31:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"XJiM/zZzwhuKUN6DMGnJ5iB2G4OqIOSzGOLciYT7TNM=\""
+          "Value": "W/\"BrXNSDONeseG90717VyqPwBFhJrhhOp9xyl7VEKqhtw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XJiM/zZzwhuKUN6DMGnJ5iB2G4OqIOSzGOLciYT7TNM="
+          "Value": "sha256-BrXNSDONeseG90717VyqPwBFhJrhhOp9xyl7VEKqhtw="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-ghn7dyslqv.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-iezf2qoar3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12277"
+          "Value": "12278"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i9qrxhIRFn4YKTlijAyNqpDD0mkbmknXcUFbN7MVdT4=\""
+          "Value": "\"tNfwWk6uX1rbpgxoh7LZB1tRzVYFb8Vz2H49m9P7MSM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:31:36 GMT"
+          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i9qrxhIRFn4YKTlijAyNqpDD0mkbmknXcUFbN7MVdT4="
+          "Value": "sha256-tNfwWk6uX1rbpgxoh7LZB1tRzVYFb8Vz2H49m9P7MSM="
         }
       ]
     },
@@ -22285,168 +22285,7 @@
       ]
     },
     {
-      "Route": "_framework/session25.1t8ny80uh9.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "32533"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1t8ny80uh9"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session25.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session25.1t8ny80uh9.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-1t8ny80uh9.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081063554"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12335"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1t8ny80uh9"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session25.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session25.1t8ny80uh9.wasm.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-1t8ny80uh9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12335"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1t8ny80uh9"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/session25.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/session25.l2zhriky8c.pdb",
+      "Route": "_framework/session25.6alg90w8h4.pdb",
       "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22464,11 +22303,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA=\""
+          "Value": "\"QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:44 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22478,7 +22317,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l2zhriky8c"
+          "Value": "6alg90w8h4"
         },
         {
           "Name": "label",
@@ -22486,18 +22325,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA="
+          "Value": "sha256-QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE="
         }
       ]
     },
     {
-      "Route": "_framework/session25.l2zhriky8c.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-l2zhriky8c.gz",
+      "Route": "_framework/session25.6alg90w8h4.pdb",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-6alg90w8h4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000042753313"
+          "Quality": "0.000042751486"
         }
       ],
       "ResponseHeaders": [
@@ -22507,15 +22346,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23389"
+          "Value": "23390"
         },
         {
           "Name": "ETag",
-          "Value": "\"/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E=\""
+          "Value": "\"q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22535,13 +22374,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA=\""
+          "Value": "W/\"QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l2zhriky8c"
+          "Value": "6alg90w8h4"
         },
         {
           "Name": "label",
@@ -22549,13 +22388,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA="
+          "Value": "sha256-QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE="
         }
       ]
     },
     {
-      "Route": "_framework/session25.l2zhriky8c.pdb.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-l2zhriky8c.gz",
+      "Route": "_framework/session25.6alg90w8h4.pdb.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-6alg90w8h4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22564,7 +22403,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23389"
+          "Value": "23390"
         },
         {
           "Name": "Content-Type",
@@ -22572,11 +22411,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E=\""
+          "Value": "\"q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22594,7 +22433,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l2zhriky8c"
+          "Value": "6alg90w8h4"
         },
         {
           "Name": "label",
@@ -22602,7 +22441,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E="
+          "Value": "sha256-q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8="
         }
       ]
     },
@@ -22625,11 +22464,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA=\""
+          "Value": "\"QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:44 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22639,18 +22478,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA="
+          "Value": "sha256-QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE="
         }
       ]
     },
     {
       "Route": "_framework/session25.pdb",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-l2zhriky8c.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-6alg90w8h4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000042753313"
+          "Quality": "0.000042751486"
         }
       ],
       "ResponseHeaders": [
@@ -22660,15 +22499,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23389"
+          "Value": "23390"
         },
         {
           "Name": "ETag",
-          "Value": "\"/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E=\""
+          "Value": "\"q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22688,19 +22527,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA=\""
+          "Value": "W/\"QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M/E1QyMpgLK/YJ5lenx2pNsPMNf2MrsZjz2zKq+xvNA="
+          "Value": "sha256-QocImi+XoKTiFtnvPgE2KFYVIJ65JvVL43x+2ea2ZsE="
         }
       ]
     },
     {
       "Route": "_framework/session25.pdb.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-l2zhriky8c.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-6alg90w8h4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22709,7 +22548,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23389"
+          "Value": "23390"
         },
         {
           "Name": "Content-Type",
@@ -22717,11 +22556,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E=\""
+          "Value": "\"q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22739,7 +22578,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/XT2nq+m1OuSbKWrSgRQp/bd75ogj4/tmKPpOGv/C1E="
+          "Value": "sha256-q+bzul/n4cLY7slG8del1OKvqwtNWqMh8SFpfkiIDU8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session25.tpvs6avqsv.wasm",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 00:12:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpvs6avqsv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session25.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session25.tpvs6avqsv.wasm",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-tpvs6avqsv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000080801551"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12375"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpvs6avqsv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session25.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/session25.tpvs6avqsv.wasm.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-tpvs6avqsv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tpvs6avqsv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/session25.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ="
         }
       ]
     },
@@ -22754,7 +22754,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32533"
+          "Value": "33045"
         },
         {
           "Name": "Content-Type",
@@ -22762,11 +22762,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo=\""
+          "Value": "\"b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:44 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22776,18 +22776,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo="
+          "Value": "sha256-b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk="
         }
       ]
     },
     {
       "Route": "_framework/session25.wasm",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-1t8ny80uh9.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-tpvs6avqsv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081063554"
+          "Quality": "0.000080801551"
         }
       ],
       "ResponseHeaders": [
@@ -22797,15 +22797,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12335"
+          "Value": "12375"
         },
         {
           "Name": "ETag",
-          "Value": "\"b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M=\""
+          "Value": "\"fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22825,19 +22825,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo=\""
+          "Value": "W/\"b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q3HCRN69dk/EyY+FWOO2hkRzxRCgRiv0+InlkpvFIvo="
+          "Value": "sha256-b9IJyPppO8KXX3OuMC5UH9jW61F3jEU47MxdTs+W3sk="
         }
       ]
     },
     {
       "Route": "_framework/session25.wasm.gz",
-      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-1t8ny80uh9.gz",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-tpvs6avqsv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22846,7 +22846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12335"
+          "Value": "12375"
         },
         {
           "Name": "Content-Type",
@@ -22854,11 +22854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M=\""
+          "Value": "\"fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 14:35:45 GMT"
+          "Value": "Sun, 09 Mar 2025 00:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22876,7 +22876,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-b8LWUJr3F6Oq9c/oGgn7EP0SrlAyc9zooTnt6ALiJ5M="
+          "Value": "sha256-fH70xmFtkMu/U+6MbvVMPaAqNt+LHffp195HHE4t4vQ="
         }
       ]
     },

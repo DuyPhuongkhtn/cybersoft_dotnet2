@@ -1076,10 +1076,10 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/scopedcss/Pages/RegisterForm.razor.rz.scp.css
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/54aqiq2n4o-h667gukyh4.gz
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/1h2m6ivpsc-h667gukyh4.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.l2zhriky8c.pdb
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.1t8ny80uh9.wasm
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.1t8ny80uh9.wasm.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.l2zhriky8c.pdb.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-1t8ny80uh9.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-l2zhriky8c.gz
-/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-ghn7dyslqv.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.6alg90w8h4.pdb
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.tpvs6avqsv.wasm
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.tpvs6avqsv.wasm.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/bin/Debug/net9.0/wwwroot/_framework/session25.6alg90w8h4.pdb.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/0zqljzrhpu-tpvs6avqsv.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/davwpnjx9m-6alg90w8h4.gz
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session25/obj/Debug/net9.0/compressed/84fs4n33n8-iezf2qoar3.gz
