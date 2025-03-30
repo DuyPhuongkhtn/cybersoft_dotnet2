@@ -1,6 +1,11 @@
-public class Product {
-    public int id {get; set;}
-    public string name {get; set;} = string.Empty;
-    public decimal price {get; set;}
-    public string description {get; set;} = string.Empty;
+
+namespace session37_api.Models
+{
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public decimal Price { get; set; }
+        public string Description { get; set; } = string.Empty;
+    }
 }

@@ -1,24 +1,29 @@
 using Microsoft.EntityFrameworkCore;
+using session37_api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 
 // add DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// đăng ký ProductController và những controller khác cho webapi
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
 }
 
 app.UseHttpsRedirection();
+
+// define middleware MapController để điều hướng API tới controller phù hợp
+app.MapControllers();
 
 var summaries = new[]
 {
@@ -53,3 +58,4 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 // update migration
 //  windows: Update-Database
 // mac: dotnet ef database update
+// docker run -e 'ACCEPT_EULA=1' -e 'MSSQL_SA_PASSWORD=Duyphuong123' -p 1433:1433 --name azuresqledge --restart unless-stopped -d mcr.microsoft.com/azure-sql-edge
