@@ -164,3 +164,6 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session37_api/obj/Debug/net9.0/session37_api.pdb
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session37_api/obj/Debug/net9.0/session37_api.genruntimeconfig.cache
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session37_api/obj/Debug/net9.0/ref/session37_api.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session37_api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session37_api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session37_api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
