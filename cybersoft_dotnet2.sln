@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session31_signalR.Client", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session37_api", "session37_api\session37_api.csproj", "{F9A7A7BE-5975-4A52-9427-EAC64BBC5744}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session40_50", "session40_50\session40_50.csproj", "{A729AE61-DF05-4478-87F8-796F317C372B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +199,10 @@ Global
 		{F9A7A7BE-5975-4A52-9427-EAC64BBC5744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A7A7BE-5975-4A52-9427-EAC64BBC5744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A7A7BE-5975-4A52-9427-EAC64BBC5744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A729AE61-DF05-4478-87F8-796F317C372B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A729AE61-DF05-4478-87F8-796F317C372B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A729AE61-DF05-4478-87F8-796F317C372B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A729AE61-DF05-4478-87F8-796F317C372B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

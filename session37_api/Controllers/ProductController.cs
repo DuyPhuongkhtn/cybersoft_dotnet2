@@ -168,10 +168,38 @@ namespace session37_api.Controllers {
             // update product
             // chuyển entity Product về mode update
             // _context.Entry(product).State = EntityState.Modified;
-            var value = _context.Products.Update(product);
+            existingProduct.Name = product.Name;
+            existingProduct.Price = product.Price;
+            existingProduct.Description = product.Description;
+            _context.Products.Update(existingProduct);
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+    
+        // API DELETE
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteProduct(int id) {
+            // kiểm tra product muốn xóa có trong database hay không
+            var existingProduct = await _context.Products.FindAsync(id);
+
+            // lứu ý:
+            // code theo trường phái fail first
+
+            // nếu ko tìm thấy => lỗi
+            if(existingProduct == null) {
+                return NotFound(new {
+                    Message = "Product not found"
+                });
+            }
+
+            // nếu tìm thấy => xóa
+            _context.Products.Remove(existingProduct);
+            await _context.SaveChangesAsync();
+
+            return Ok(new {
+                Message = "Product deleted successfully"
+            });
         }
     }
 }
