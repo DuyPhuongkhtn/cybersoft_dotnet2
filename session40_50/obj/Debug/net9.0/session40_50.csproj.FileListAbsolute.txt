@@ -167,3 +167,6 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/obj/Debug/net9.0/session40_50.pdb
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/obj/Debug/net9.0/session40_50.genruntimeconfig.cache
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/obj/Debug/net9.0/ref/session40_50.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/MailKit.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/MimeKit.dll

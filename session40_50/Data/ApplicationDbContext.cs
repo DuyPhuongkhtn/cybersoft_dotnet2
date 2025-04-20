@@ -8,5 +8,6 @@ namespace session40_50.Data {
 
         // add các Model entity
         public DbSet<Product> Products { get; set; }
+        public DbSet<User> Users {get; set;}
     }
 }

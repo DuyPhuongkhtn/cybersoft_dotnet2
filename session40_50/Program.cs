@@ -17,6 +17,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // register repositories và services
 builder.Services.AddScoped<IProductRepository, MongoRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IUserRepository, AuthRepository>();
+builder.Services.AddScoped<IUserService, AuthService>();
 
 // add controller
 builder.Services.AddControllers();

@@ -8,8 +8,8 @@ namespace session40_50.Models
         public int CategoryID { get; set; }
 
         [Required(ErrorMessage = "Product Name is required")]
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Price is required")]
         [Range(0, 100000000, ErrorMessage = "Price must be between 0 and 100000000")]
