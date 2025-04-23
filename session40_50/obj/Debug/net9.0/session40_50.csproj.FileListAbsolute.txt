@@ -170,3 +170,5 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/MailKit.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/MimeKit.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/BCrypt.Net-Next.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

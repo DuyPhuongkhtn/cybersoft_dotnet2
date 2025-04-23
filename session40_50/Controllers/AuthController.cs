@@ -21,5 +21,31 @@ namespace session40_50.Controllers {
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("verify-email")]
+        public async Task<ActionResult> VerifyEmail([FromQuery] string token) {
+            try{
+                var result = await _userService.VerifyEmailAsync(token);
+                if(result != null) {
+                    return Ok("Email verified successfully");
+                }
+                return BadRequest("Invalid token");
+            } catch (Exception ex) {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<string>> Login([FromBody] LoginDTO loginDTO){
+            try {
+                var token = await _userService.LoginAsync(loginDTO);
+                if(token == null) {
+                    return BadRequest("Invalid email or password");
+                }
+                return Ok(token);
+            } catch (Exception ex) {
+                return BadRequest("Email or password is incorrect");
+            }
+        }
     }
 }
