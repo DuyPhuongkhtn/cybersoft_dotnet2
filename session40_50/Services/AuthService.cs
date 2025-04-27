@@ -1,4 +1,8 @@
 
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
 using session40_50.Interfaces;
 using session40_50.Models;
 using session40_50.Models.DTOs;
@@ -38,7 +42,8 @@ namespace session40_50.Services {
                 Password = user.Password,
                 Name = user.Name,
                 VerificationToken=token,
-                IsEmailVerified=false // default là false để khi tạo mới thì chưa verify email
+                IsEmailVerified=false, // default là false để khi tạo mới thì chưa verify email
+                Role=user.Role
             };
 
             await _userRepository.CreateUserAsync(newUser);
@@ -57,6 +62,32 @@ namespace session40_50.Services {
 
         public async Task<User?> VerifyEmailAsync(string token) {
             return await _userRepository.GetUserByVerificationTokenAsync(token);
+        }
+
+        // define function generate token
+        private string GenerateJwtToken(User user) {
+            // lấy key tạo token từ appsettings.json
+            var securityKey = _configuration["Jwt:Key"];
+            var formatKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
+            var credentials = new SigningCredentials(formatKey, SecurityAlgorithms.HmacSha256);
+
+            // tạo claims (lưu những info cơ bản của user để BE verify)
+            var claims = new[] {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role) // truyền info Role vào claim
+            };
+
+            // tạo token
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"], // required
+                audience: _configuration["Jwt:Audience"], // required
+                claims: claims, //required
+                expires: DateTime.Now.AddHours(1), // required
+                signingCredentials: credentials //required
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
         public async Task<string?> LoginAsync(LoginDTO loginDTO) {
@@ -78,8 +109,50 @@ namespace session40_50.Services {
             if(!user.IsEmailVerified) {
                 return null;
             }
-            var token = "test-token";
+            var token = GenerateJwtToken(user);
             return token;
         }
+
+        public async Task<User?> GetUserByEmailAsync(string email) {
+            var user = await _userRepository.GetUserByEmailAsync(email);
+            return user;
+        }
+
+        public async Task<User?> ForgotPassword(string email) {
+            var user = await GetUserByEmailAsync(email);
+            if(user == null) {
+                return null;
+            }
+
+            var tokenResetPassword = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+
+            // lưu thông tin token reset vào database
+            user.TokenResetPassword = tokenResetPassword;
+            user.ExpiresTokenReset = DateTime.Now.AddHours(1);
+
+            await _userRepository.UpdateUserAsync(user);
+            
+            // gửi email đến email của user
+            _emailService.SendEmailAsync(email, "Reset password", $"Your token is: {tokenResetPassword}");
+
+            return user;
+        }
+
+        public async Task<User?> ResetPasswordAsync(ResetPassDTO resetPassDTO) {
+            Console.WriteLine($"Reset password: {resetPassDTO.ResetToken}");
+            var user = await _userRepository.GetUserByResetToken(resetPassDTO.ResetToken);
+            if(user == null) {
+                return null;
+            }
+
+            // mã hóa password mới
+            user.Password = BCrypt.Net.BCrypt.HashPassword(resetPassDTO.NewPassword);
+            user.TokenResetPassword = "";
+            user.ExpiresTokenReset = null;
+
+            await _userRepository.UpdateUserAsync(user);
+            return user;
+        }
+
     }
 }

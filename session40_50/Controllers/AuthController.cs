@@ -44,7 +44,35 @@ namespace session40_50.Controllers {
                 }
                 return Ok(token);
             } catch (Exception ex) {
-                return BadRequest("Email or password is incorrect");
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("forgot-password")]
+        public async Task<ActionResult> ForgotPassword([FromBody] ForgotPassDTO forgotPassDTO){
+            try {
+                Console.WriteLine($"Email: {forgotPassDTO.Email}");
+                var result = await _userService.ForgotPassword(forgotPassDTO.Email);
+                if(result == null) {
+                    return BadRequest("Invalid email");
+                }
+                return Ok("Password reset link sent to your email");
+            } catch (Exception ex) {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<ActionResult> ResetPassword([FromBody] ResetPassDTO resetPassDTO) {
+            try {
+                var result = await _userService.ResetPasswordAsync(resetPassDTO);
+                if(result == null) {
+                    return BadRequest("Invalid token or new password is not provided");
+                }
+
+                return Ok("Password reset successfully");
+            } catch (Exception ex) {
+                return BadRequest(ex.Message);
             }
         }
     }

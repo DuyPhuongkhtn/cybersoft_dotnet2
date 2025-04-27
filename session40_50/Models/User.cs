@@ -19,5 +19,12 @@ namespace session40_50.Models {
         public string? VerificationToken { get; set; }
 
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
+
+        // thêm column Role
+        public string Role { get; set;} = "User";
+
+        public string TokenResetPassword {get; set;} = string.Empty;
+
+        public DateTime? ExpiresTokenReset {get; set;}
     }
 }

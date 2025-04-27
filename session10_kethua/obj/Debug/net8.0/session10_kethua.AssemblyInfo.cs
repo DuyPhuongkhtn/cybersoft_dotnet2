@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("session10_kethua")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b8f02a1c4516cb68025b58ab3e0302380b45f68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+417e557f2be4ef0f1160530c1a3818aca0bf48dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("session10_kethua")]
 [assembly: System.Reflection.AssemblyTitleAttribute("session10_kethua")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

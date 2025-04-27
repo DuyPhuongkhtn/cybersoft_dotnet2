@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using session40_50.Models;
 using session40_50.Interfaces;
 using session40_50.Models.DTOs;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace session40_50.Controllers {
 
@@ -27,6 +29,7 @@ namespace session40_50.Controllers {
             return Ok(product);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<ProductResponseDTO>> CreateProduct(ProductRequestDTO productDTO){
             // validate model
@@ -38,10 +41,20 @@ namespace session40_50.Controllers {
                 return BadRequest(ModelState);
             }
 
+            // Kiểm tra role của user
+            // User này là property của PrincipalClaim
+            var userRole = User.FindFirst(ClaimTypes.Role)?.Value;
+            Console.WriteLine("userRole: " + userRole);
+            if (userRole != "Admin")
+            {
+                return Unauthorized(new { message = "Only Admin users can create products" });
+            }
+
             var createdProduct = await _productsService.CreateProductAsync(productDTO);
             return Ok(createdProduct);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult<ProductResponseDTO>> UpdateProduct(int id, ProductRequestDTO productDTO) {
             // Lưu ý: vì bước kiểm tra dữ liệu đã dùng ở layer service nên không cần kiểm tra ở layer controller nữa

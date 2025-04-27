@@ -15,5 +15,7 @@ namespace session40_50.Models.DTOs {
         public string? VerificationToken { get; set; }
 
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public string Role { get; set;} = "User";
     }
 }

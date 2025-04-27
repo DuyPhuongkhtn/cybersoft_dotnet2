@@ -7,5 +7,8 @@ namespace session40_50.Interfaces {
         Task<User?> GetUserByVerificationTokenAsync(string token);
 
         Task<User?> GetUserByEmailAsync(string email);
+        Task<User?> UpdateUserAsync(User user);
+
+        Task<User?> GetUserByResetToken(string token);
     }
 }

@@ -33,5 +33,24 @@ namespace session40_50.Repositories {
         public async Task<User?> GetUserByEmailAsync(string email) {
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
+
+        public async Task<User?> UpdateUserAsync(User user) {
+            await _context.SaveChangesAsync();
+            return user;
+        }
+
+        public async Task<User?> GetUserByResetToken(string token) {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.TokenResetPassword == token);
+            if(user == null ){
+                return null;
+            }
+
+            // kiểm tra nếu token đã hết hạn
+            if(DateTime.Now > user.ExpiresTokenReset) {
+                return null;
+            }
+
+            return user;
+        }
     }
 }
