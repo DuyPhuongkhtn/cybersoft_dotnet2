@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/wwwroot/uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png",
+      "PackagePath": "staticwebassets/uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.session40_50.props",
+      "PackagePath": "build\\session40_50.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.session40_50.props",
+      "PackagePath": "buildMultiTargeting\\session40_50.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.session40_50.props",
+      "PackagePath": "buildTransitive\\session40_50.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.session40_50.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.session40_50.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

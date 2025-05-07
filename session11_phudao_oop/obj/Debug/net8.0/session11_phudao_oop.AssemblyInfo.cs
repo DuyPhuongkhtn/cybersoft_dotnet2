@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("session11_phudao_oop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+417e557f2be4ef0f1160530c1a3818aca0bf48dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a5202281223cbcbbaac520f3df6e38a4e6da9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("session11_phudao_oop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("session11_phudao_oop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

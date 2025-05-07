@@ -172,3 +172,7 @@
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/MimeKit.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/BCrypt.Net-Next.dll
 /Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/Pipelines.Sockets.Unofficial.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/StackExchange.Redis.dll
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/session40_50.staticwebassets.runtime.json
+/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/bin/Debug/net9.0/SixLabors.ImageSharp.dll

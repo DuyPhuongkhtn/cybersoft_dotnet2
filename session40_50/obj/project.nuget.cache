@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7SlB/VG7vDc=",
+  "dgSpecHash": "jHbPV9qOcj0=",
   "success": true,
   "projectFilePath": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/session40_50.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,7 @@
     "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.http/2.3.0/microsoft.aspnetcore.http.2.3.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.3.0/microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.http.extensions/2.3.0/microsoft.aspnetcore.http.extensions.2.3.0.nupkg.sha512",
-    "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.http.features/5.0.17/microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.webutilities/2.3.0/microsoft.aspnetcore.webutilities.2.3.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -73,6 +73,9 @@
     "/Users/dinhduyphuong/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/mimekit/4.11.0/mimekit.4.11.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/sixlabors.imagesharp/3.1.8/sixlabors.imagesharp.3.1.8.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/stackexchange.redis/2.8.31/stackexchange.redis.2.8.31.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/swashbuckle.aspnetcore/8.1.0/swashbuckle.aspnetcore.8.1.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.0/swashbuckle.aspnetcore.swagger.8.1.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.1.0/swashbuckle.aspnetcore.swaggergen.8.1.0.nupkg.sha512",

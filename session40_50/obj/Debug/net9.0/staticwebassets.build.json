@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "yABXTM98ABCVv2R80kd0CMafF4NxjiCA2WbtfKJDJCU=",
+  "Hash": "EXPwXEXPl1K1TfgFA/rJ3bJhNQK44xjMGvkGnhf1cdE=",
   "Source": "session40_50",
   "BasePath": "_content/session40_50",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "session40_50/wwwroot",
+      "Source": "session40_50",
+      "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/wwwroot/",
+      "BasePath": "_content/session40_50",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/wwwroot/uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png",
+      "SourceId": "session40_50",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/wwwroot/",
+      "BasePath": "_content/session40_50",
+      "RelativePath": "uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a80639zzst",
+      "Integrity": "qt3yq4XokAJvNJwjwbx51uAJ+HEJ6e+SPbJiCbkvGSU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.a80639zzst.png",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/wwwroot/uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1991964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qt3yq4XokAJvNJwjwbx51uAJ+HEJ6e+SPbJiCbkvGSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:50:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a80639zzst"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qt3yq4XokAJvNJwjwbx51uAJ+HEJ6e+SPbJiCbkvGSU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png",
+      "AssetFile": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session40_50/wwwroot/uploads/5aa42950-3382-4b44-b090-5e1a8c6eb071.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1991964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qt3yq4XokAJvNJwjwbx51uAJ+HEJ6e+SPbJiCbkvGSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:50:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qt3yq4XokAJvNJwjwbx51uAJ+HEJ6e+SPbJiCbkvGSU="
+        }
+      ]
+    }
+  ]
 }

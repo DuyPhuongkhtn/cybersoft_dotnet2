@@ -8,6 +8,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using session40_50.Filters;
+using StackExchange.Redis;
+using session40_50.Models;
+using session40_50.Middleware;
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -72,6 +76,27 @@ builder.Services.AddAuthorization(options => {
     });
 });
 
+// configure redis
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp => {
+    var configuration = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"));
+    return ConnectionMultiplexer.Connect(configuration);
+});
+
+// add middleware rate limiting
+builder.Services.Configure<RateLimitSettings>(
+    builder.Configuration.GetSection("RateLimiting")
+);
+
+// configure upload file
+builder.Services.Configure<FileUploadSettings>(
+    builder.Configuration.GetSection("FileUpload")
+);
+
+// cấu hình kích thước tối đa
+builder.Services.Configure<FormOptions>(options => {
+    options.MultipartBodyLengthLimit = builder.Configuration.GetValue<long>("FileUpload:MaxFileSize");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -83,6 +108,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
+
+app.UseMiddleware<RateLimitMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();
