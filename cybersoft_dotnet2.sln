@@ -69,6 +69,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session37_api", "session37_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session40_50", "session40_50\session40_50.csproj", "{A729AE61-DF05-4478-87F8-796F317C372B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "session48_microservice", "session48_microservice", "{EC97A65F-CEDB-48B1-AAAC-91ECBBE889B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "session48_microservice\AuthenticationService\AuthenticationService.csproj", "{712A8890-2ABC-4C43-9986-8EBEEE748D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "session48_microservice\EmailService\EmailService.csproj", "{F1C204FE-6BAD-4505-94FB-4ACEE649AE9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +209,14 @@ Global
 		{A729AE61-DF05-4478-87F8-796F317C372B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A729AE61-DF05-4478-87F8-796F317C372B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A729AE61-DF05-4478-87F8-796F317C372B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712A8890-2ABC-4C43-9986-8EBEEE748D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712A8890-2ABC-4C43-9986-8EBEEE748D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712A8890-2ABC-4C43-9986-8EBEEE748D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712A8890-2ABC-4C43-9986-8EBEEE748D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C204FE-6BAD-4505-94FB-4ACEE649AE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C204FE-6BAD-4505-94FB-4ACEE649AE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C204FE-6BAD-4505-94FB-4ACEE649AE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C204FE-6BAD-4505-94FB-4ACEE649AE9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,5 +227,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{96DA6AB2-08CC-4B94-A72E-8F23D1545F6A} = {34E1BA31-70F7-454D-A927-0376F560AC0F}
 		{EC2CD0AD-CEDD-4C1B-9562-1183DCB86217} = {34E1BA31-70F7-454D-A927-0376F560AC0F}
+		{712A8890-2ABC-4C43-9986-8EBEEE748D34} = {EC97A65F-CEDB-48B1-AAAC-91ECBBE889B3}
+		{F1C204FE-6BAD-4505-94FB-4ACEE649AE9B} = {EC97A65F-CEDB-48B1-AAAC-91ECBBE889B3}
 	EndGlobalSection
 EndGlobal

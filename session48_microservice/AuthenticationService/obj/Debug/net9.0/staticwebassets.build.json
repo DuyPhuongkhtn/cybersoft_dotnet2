@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SoDDXj1OHjqpRpnwsoKHErhLbASDgu8dsOcoNxmL5iQ=",
+  "Source": "AuthenticationService",
+  "BasePath": "_content/AuthenticationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
