@@ -1,3 +1,5 @@
+using EmailService.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,7 +10,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // add EmailService
-builder.Services.AddScoped<EmailService.Services.EmailService>();
+builder.Services.AddSingleton<IEmailService,EmailService.Services.EmailService>();
+
+// add KafkaConsumer
+builder.Services.AddHostedService<KafkaConsumerService>();
 
 var app = builder.Build();
 

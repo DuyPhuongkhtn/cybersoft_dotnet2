@@ -24,6 +24,9 @@ builder.Services.AddHttpClient("EmailService", client => {
 // add service
 builder.Services.AddScoped<AuthService>();
 
+// add Kafka producer service
+builder.Services.AddSingleton<KafkaProducerService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

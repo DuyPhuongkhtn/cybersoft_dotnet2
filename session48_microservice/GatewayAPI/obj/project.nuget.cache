@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ouVORqMYI/I=",
+  "success": true,
+  "projectFilePath": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session48_microservice/GatewayAPI/GatewayAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

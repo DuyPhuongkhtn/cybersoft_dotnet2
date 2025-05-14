@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DoodN2bfq9w=",
+  "dgSpecHash": "IkBTzZVciBw=",
   "success": true,
   "projectFilePath": "/Users/dinhduyphuong/Desktop/cyber_sharp/cybersoft_dotnet2/session48_microservice/EmailService/EmailService.csproj",
   "expectedPackageFiles": [
     "/Users/dinhduyphuong/.nuget/packages/bouncycastle.cryptography/2.5.1/bouncycastle.cryptography.2.5.1.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/confluent.kafka/2.10.0/confluent.kafka.2.10.0.nupkg.sha512",
+    "/Users/dinhduyphuong/.nuget/packages/librdkafka.redist/2.10.0/librdkafka.redist.2.10.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/mailkit/4.12.0/mailkit.4.12.0.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "/Users/dinhduyphuong/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

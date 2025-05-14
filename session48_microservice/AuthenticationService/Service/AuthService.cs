@@ -10,12 +10,20 @@ namespace AuthenticationService.Service {
     public class AuthService {
         private readonly AuthDbContext _context;
         private readonly IConfiguration _configuration;
-        private readonly IHttpClientFactory _httpClientFactory;
+        // private readonly IHttpClientFactory _httpClientFactory;
 
-        public AuthService(AuthDbContext context, IConfiguration configuration, IHttpClientFactory httpClientFactory) {
+        private readonly KafkaProducerService _kafkaProducerService;
+
+        public AuthService(
+            AuthDbContext context,
+            IConfiguration configuration,
+            // IHttpClientFactory httpClientFactory
+            KafkaProducerService kafkaProducerService
+        ) {
             _context = context;
             _configuration = configuration;
-            _httpClientFactory = httpClientFactory;
+            // _httpClientFactory = httpClientFactory;
+            _kafkaProducerService = kafkaProducerService;
         }
 
         public async Task<AuthResponse> Register(RegisterDTO registerDTO) {
@@ -33,11 +41,14 @@ namespace AuthenticationService.Service {
             await _context.SaveChangesAsync();
 
             // send email welcome -> call API Email service
-            var client = _httpClientFactory.CreateClient("EmailService");
-            await client.PostAsJsonAsync("api/Email/welcome", new {
-                Email=user.Email,
-                Username=user.Username
-            });
+            // var client = _httpClientFactory.CreateClient("EmailService");
+            // await client.PostAsJsonAsync("api/Email/welcome", new {
+            //     Email=user.Email,
+            //     Username=user.Username
+            // });
+
+            // dùng kafka producer
+            await _kafkaProducerService.PublishUserRegisteredEvent(user.Email, user.Username);
 
             return new AuthResponse {
                 Token = "test",
